@@ -35,25 +35,22 @@ foreach ($file in @('package.json', 'package-lock.json', 'LICENSE', 'README.md',
 }
 Copy-Item -LiteralPath $nodeExe -Destination (Join-Path $node 'node.exe')
 Copy-Item -LiteralPath $nodeLicense -Destination (Join-Path $node 'LICENSE')
-foreach ($file in @('launch.vbs', 'message.vbs', 'launcher.mjs')) {
+foreach ($file in @('launch.vbs', 'message.vbs', 'launcher.mjs', 'browser-install.mjs', 'browser-setup.ps1')) {
   Copy-Item -LiteralPath (Join-Path $PSScriptRoot $file) -Destination (Join-Path $stage $file)
 }
 
 Push-Location $app
-$oldBrowserPath = $env:PLAYWRIGHT_BROWSERS_PATH
+$oldSkipBrowserDownload = $env:PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD
 try {
   # Reinstall on Windows to get Windows-native better-sqlite3; never copy Linux binaries.
+  $env:PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD = '1'
   & $npm ci --omit=dev --no-audit --no-fund
   if ($LASTEXITCODE -ne 0) { throw 'Installing production dependencies failed.' }
   & $nodeExe -e "const Database = require('better-sqlite3'); const db = new Database(':memory:'); db.close()"
   if ($LASTEXITCODE -ne 0) { throw 'Windows native SQLite addon failed its smoke test.' }
-  # Hermetic mode places the matching Chromium under node_modules/playwright-core.
-  $env:PLAYWRIGHT_BROWSERS_PATH = '0'
-  & $nodeExe (Join-Path $app 'node_modules\playwright\cli.js') install chromium
-  if ($LASTEXITCODE -ne 0) { throw 'Installing Playwright Chromium failed.' }
 } finally {
-  if ($null -eq $oldBrowserPath) { Remove-Item Env:PLAYWRIGHT_BROWSERS_PATH -ErrorAction SilentlyContinue }
-  else { $env:PLAYWRIGHT_BROWSERS_PATH = $oldBrowserPath }
+  if ($null -eq $oldSkipBrowserDownload) { Remove-Item Env:PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD -ErrorAction SilentlyContinue }
+  else { $env:PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD = $oldSkipBrowserDownload }
   Pop-Location
 }
 

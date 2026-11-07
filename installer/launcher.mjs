@@ -3,6 +3,7 @@ import { mkdir } from 'node:fs/promises';
 import net from 'node:net';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { ensureBrowser } from './browser-install.mjs';
 
 // This file runs from the installed bundle using its bundled Windows Node.exe.
 const installDir = path.dirname(fileURLToPath(import.meta.url));
@@ -33,7 +34,9 @@ async function start() {
   }
   const userData = path.join(process.env.LOCALAPPDATA, 'AutoQuotes Free');
   await mkdir(userData, { recursive: true });
-  const env = { ...process.env, AUTOQUOTES_DATA_DIR: userData, PLAYWRIGHT_BROWSERS_PATH: '0',
+  const browserDir = path.join(userData, 'browsers');
+  await ensureBrowser(appDir, nodeExe, browserDir);
+  const env = { ...process.env, AUTOQUOTES_DATA_DIR: userData, PLAYWRIGHT_BROWSERS_PATH: browserDir,
     AUTO_SHUTDOWN: '1', HOST: '127.0.0.1', PORT: '3000' };
   // Do not let a developer's DATABASE_PATH redirect an installed copy into
   // another project's database.

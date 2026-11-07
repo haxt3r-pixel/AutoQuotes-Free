@@ -1,12 +1,14 @@
-# AutoQuotes Free — Linux Edition
+# AutoQuotes Free
 
-**Version 1.0.0** · Local automotive repair quotes, jobs, and billing tracking for Linux
+**Version 1.0.0** · Local automotive repair quotes, jobs, and billing tracking for Linux and Windows
 
 AutoQuotes Free helps a repair shop prepare estimates, track the work approved by a customer, and record whether a completed job has been paid. It runs a local Node.js server and opens in your browser. Your shop and customer records are stored in a local SQLite database. The optional AI assistant connects to LM Studio; pricing calculations do not depend on AI.
 
-This is the **Linux edition**, intended for a single user on one computer. It is a source-based application, not an installed system package or a hosted service.
+AutoQuotes Free is intended for a single user on one computer, not as a hosted service.
 
-The Windows 11 edition is under development; see [WINDOWS.md](WINDOWS.md) for its current status and setup.
+**Windows 11:** The Windows edition is a prerelease. Download its installer from [GitHub Releases](https://github.com/haxt3r-pixel/AutoQuotes-Free/releases/tag/windows-v1.0.0-beta) and follow the [Windows installation and setup guide](WINDOWS.md). Automated checks ran on Windows Server; a Windows 11 desktop test is still needed.
+
+**Linux:** Continue with the Linux installation and setup instructions below. The Linux edition runs from source rather than an installed system package.
 
 ## What it does
 
