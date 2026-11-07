@@ -1,6 +1,6 @@
 # AutoQuotes Free — Windows 11 development
 
-The Windows edition is **in development**. Its setup, launcher, and installer scripts have not yet been validated on a Windows 11 computer. No tested Windows installer is available from this project yet. The existing Linux edition remains available separately.
+The Windows edition is **in development**. Automated installation, server, PDF and uninstall checks run on a Windows Server GitHub Actions runner; the installer has not yet been validated on a Windows 11 desktop. The existing Linux edition remains available separately.
 
 AutoQuotes Free runs a local Node.js server and opens in your browser. The Windows installer is being prepared for 64-bit Windows 11 and is intended to include Node.js and the Playwright Chromium build required for PDFs and parts features. It provides a Start menu shortcut and an optional desktop shortcut.
 
@@ -49,7 +49,7 @@ npm run build
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\installer\build-windows.ps1
 ```
 
-The build script stages the compiled app and public vehicle catalog, installs production dependencies for Windows, downloads Playwright Chromium into the bundle, and invokes the Inno Setup compiler. It does not stage the local database, quote PDFs, or uploaded logos. Its default output directory is `windows-output\`. The build requires network access and may need the native build tools noted above. The installer and bundled third-party notices still need Windows validation before distribution.
+The build script stages the compiled app and public vehicle catalog, installs production dependencies for Windows, downloads Playwright Chromium into the bundle, and invokes the Inno Setup compiler. It does not stage the local database, quote PDFs, or uploaded logos. Its default output directory is `windows-output\`. The build requires network access and may need the native build tools noted above. Successful GitHub Actions runs retain an unsigned test installer and SHA-256 checksum for seven days. The installer still needs Windows 11 desktop validation and third-party notice review before release.
 
 ## Optional LM Studio
 
@@ -59,4 +59,4 @@ Install [LM Studio for Windows](https://lmstudio.ai/download), download and load
 
 The app has no login and is intended for one user on one computer. Keep the server on loopback; do not expose it to a network. Stop the app cleanly before backing up its database and preserve the `data`, `exports`, and `uploads` folders in a protected location. SMTP credentials and local records are not encrypted by the app. RockAuto parts features and email communicate with external services; AI requests go to the configured endpoint.
 
-Before distributing an installer, test installation, launch, PDF generation, quote-to-billing, local AI, upgrades, and uninstallation on a clean Windows 11 machine, including preservation of user data. These Windows-specific checks have not yet been performed.
+Before releasing the installer, test the desktop shortcut, quote-to-billing, local AI, upgrades, and uninstallation on a clean Windows 11 machine, including preservation of user data. The automated checks do not replace that desktop test.

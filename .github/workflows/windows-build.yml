@@ -74,3 +74,15 @@ jobs:
           $uninstall = Start-Process -FilePath $uninstaller -ArgumentList '/VERYSILENT','/SUPPRESSMSGBOXES','/NORESTART' -Wait -PassThru
           if ($uninstall.ExitCode -ne 0) { throw "Uninstaller failed: $($uninstall.ExitCode)" }
           if (-not (Test-Path (Join-Path $dataDir 'data/autoquote.db'))) { throw 'Uninstall removed user data' }
+      - name: Add checksum for the test installer
+        run: |
+          $file = Join-Path $env:RUNNER_TEMP 'autoquotes-installer-output/AutoQuotes-Free-Windows-1.0.0-Setup.exe'
+          $hash = (Get-FileHash -Algorithm SHA256 $file).Hash.ToLowerInvariant()
+          Set-Content -Path "$file.sha256" -Value "$hash  AutoQuotes-Free-Windows-1.0.0-Setup.exe" -Encoding ascii
+      - name: Save test installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: AutoQuotes-Free-Windows-1.0.0-test
+          path: ${{ runner.temp }}/autoquotes-installer-output/*
+          if-no-files-found: error
+          retention-days: 7
