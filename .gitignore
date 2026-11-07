@@ -1,0 +1,10 @@
+node_modules/
+dist/
+windows-output/
+data/*
+!data/vehicle-catalog.json
+exports/
+uploads/
+.env
+.env.*
+*.log

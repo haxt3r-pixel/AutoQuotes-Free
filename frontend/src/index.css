@@ -1,0 +1,233 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --surface: 249 250 251;
+  --surface-muted: 243 244 246;
+  --surface-elevated: 255 255 255;
+  --ink: 17 24 39;
+  --ink-muted: 75 85 99;
+  --ink-subtle: 107 114 128;
+  --line: 229 231 235;
+  --line-strong: 209 213 219;
+}
+
+html.dark {
+  color-scheme: dark;
+  --surface: 3 7 18;
+  --surface-muted: 17 24 39;
+  --surface-elevated: 17 24 39;
+  --ink: 243 244 246;
+  --ink-muted: 209 213 219;
+  --ink-subtle: 156 163 175;
+  --line: 31 41 55;
+  --line-strong: 55 65 81;
+}
+
+@layer base {
+  body {
+    @apply min-h-screen bg-surface text-ink antialiased;
+  }
+
+  ::selection {
+    @apply bg-brand-200 text-brand-900;
+  }
+
+  html.dark ::selection {
+    @apply bg-brand-800 text-brand-50;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium
+           transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2
+           focus:ring-offset-surface disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-primary {
+    @apply btn bg-brand-600 text-white hover:bg-brand-700 focus:ring-brand-500
+           dark:bg-brand-500 dark:hover:bg-brand-400 dark:text-white;
+  }
+  .btn-secondary {
+    @apply btn bg-surface-elevated text-ink border border-line-strong
+           hover:bg-surface-muted focus:ring-brand-500
+           dark:hover:bg-gray-800;
+  }
+  .btn-danger {
+    @apply btn bg-red-600 text-white hover:bg-red-700 focus:ring-red-500
+           dark:bg-red-700 dark:hover:bg-red-600;
+  }
+  .btn-ghost {
+    @apply btn text-ink-muted hover:bg-surface-muted hover:text-ink focus:ring-gray-500
+           dark:hover:bg-gray-800;
+  }
+  .btn-ai {
+    @apply btn text-brand-700 bg-brand-50 hover:bg-brand-100 border border-brand-200
+           focus:ring-brand-400
+           dark:text-brand-300 dark:bg-brand-950 dark:hover:bg-brand-900 dark:border-brand-800;
+  }
+
+  .input-field {
+    @apply block w-full rounded-lg border border-line-strong bg-surface-elevated px-3 py-2 text-sm text-ink
+           shadow-sm placeholder:text-ink-subtle
+           focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500
+           dark:bg-gray-900 dark:border-gray-700 dark:placeholder:text-gray-500
+           dark:focus:border-brand-400 dark:focus:ring-brand-400;
+  }
+
+  .label {
+    @apply block text-sm font-medium text-ink-muted mb-1 dark:text-gray-300;
+  }
+
+  .card {
+    @apply bg-surface-elevated rounded-xl border border-line p-6 shadow-card
+           dark:bg-gray-900 dark:border-gray-800 dark:shadow-card-dark;
+  }
+
+  .page-title {
+    @apply text-2xl font-bold tracking-tight text-ink;
+  }
+
+  .page-subtitle {
+    @apply text-sm text-ink-subtle;
+  }
+
+  .section-title {
+    @apply text-lg font-semibold text-ink;
+  }
+
+  .muted {
+    @apply text-ink-muted;
+  }
+
+  .subtle {
+    @apply text-ink-subtle;
+  }
+
+  .panel-muted {
+    @apply rounded-lg border border-line bg-surface-muted
+           dark:bg-gray-950/60 dark:border-gray-800;
+  }
+
+  .table-head {
+    @apply bg-surface-muted border-b border-line
+           dark:bg-gray-950/80 dark:border-gray-800;
+  }
+
+  .table-row {
+    @apply transition-colors hover:bg-surface-muted/80 dark:hover:bg-gray-800/60;
+  }
+
+  .nav-link {
+    @apply px-3 py-2 rounded-lg text-sm font-medium transition-colors
+           text-ink-muted hover:bg-surface-muted hover:text-ink
+           dark:hover:bg-gray-800;
+  }
+
+  .nav-link-active {
+    @apply bg-brand-50 text-brand-700 dark:bg-brand-950 dark:text-brand-300;
+  }
+
+  .alert-success {
+    @apply rounded-lg border border-green-200 bg-green-50 px-4 py-3 text-sm font-medium text-green-800
+           dark:border-green-900 dark:bg-green-950/50 dark:text-green-300;
+  }
+
+  .alert-error {
+    @apply rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm font-medium text-red-800
+           dark:border-red-900 dark:bg-red-950/50 dark:text-red-300;
+  }
+
+  .alert-warning {
+    @apply rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-sm text-amber-800
+           dark:border-amber-900 dark:bg-amber-950/40 dark:text-amber-200;
+  }
+
+  .alert-info {
+    @apply rounded-lg border border-blue-200 bg-blue-50 px-4 py-3 text-sm text-blue-800
+           dark:border-blue-900 dark:bg-blue-950/40 dark:text-blue-300;
+  }
+
+  .theme-toggle {
+    @apply inline-flex h-9 w-9 items-center justify-center rounded-lg border border-line-strong
+           bg-surface-elevated text-ink-muted shadow-sm transition-colors
+           hover:bg-surface-muted hover:text-ink focus:outline-none focus:ring-2 focus:ring-brand-500
+           focus:ring-offset-2 focus:ring-offset-surface
+           dark:border-gray-700 dark:bg-gray-900 dark:hover:bg-gray-800;
+  }
+
+  .data-table {
+    @apply w-full text-sm;
+  }
+
+  .data-table thead th {
+    @apply font-medium text-ink-muted text-left;
+  }
+
+  .density-comfortable .data-table th,
+  .density-comfortable .data-table td {
+    @apply px-4 py-3;
+  }
+
+  .density-compact .data-table th,
+  .density-compact .data-table td {
+    @apply px-3 py-1.5 text-xs;
+  }
+
+  .density-toggle {
+    @apply inline-flex items-center gap-1 rounded-lg border border-line-strong bg-surface-elevated p-0.5
+           dark:border-gray-700 dark:bg-gray-900;
+  }
+
+  .density-toggle button {
+    @apply rounded-md px-2.5 py-1 text-xs font-medium text-ink-muted transition-colors
+           hover:text-ink;
+  }
+
+  .density-toggle button[aria-pressed="true"] {
+    @apply bg-brand-50 text-brand-700 dark:bg-brand-950 dark:text-brand-300;
+  }
+
+  .builder-layout {
+    @apply grid grid-cols-1 gap-6 xl:grid-cols-[minmax(0,1fr)_20rem] xl:items-start;
+  }
+
+  .builder-main {
+    @apply min-w-0 space-y-6;
+  }
+
+  .builder-aside {
+    @apply xl:sticky xl:top-20 space-y-4;
+  }
+
+  .summary-card {
+    @apply card;
+  }
+
+  .summary-row {
+    @apply flex justify-between gap-3 text-sm;
+  }
+
+  .summary-label {
+    @apply text-ink-muted;
+  }
+
+  .summary-value {
+    @apply tabular-nums text-ink;
+  }
+}
+
+.priority-safety_critical {
+  @apply bg-red-100 text-red-800 border-red-200 dark:bg-red-950 dark:text-red-300 dark:border-red-900;
+}
+.priority-required {
+  @apply bg-orange-100 text-orange-800 border-orange-200 dark:bg-orange-950 dark:text-orange-300 dark:border-orange-900;
+}
+.priority-recommended {
+  @apply bg-amber-100 text-amber-800 border-amber-200 dark:bg-amber-950 dark:text-amber-200 dark:border-amber-900;
+}
+.priority-optional {
+  @apply bg-green-100 text-green-800 border-green-200 dark:bg-green-950 dark:text-green-300 dark:border-green-900;
+}
