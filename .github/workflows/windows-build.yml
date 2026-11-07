@@ -46,8 +46,11 @@ jobs:
           $env:LOCALAPPDATA = $dataDir
           $userData = Join-Path $dataDir 'AutoQuotes Free'
           $browserDir = Join-Path $userData 'browsers'
-          # Exercise the installed first-run browser setup, then confirm repeat use is offline.
+          # Exercise the production detached-window path, then confirm repeat use is offline.
+          $originalCI = $env:CI
+          $env:CI = 'false'
           & $node (Join-Path $installDir 'browser-install.mjs') $app $node $browserDir
+          $env:CI = $originalCI
           if ($LASTEXITCODE -ne 0) {
             $log = Join-Path $userData 'logs/browser-setup.log'
             if (Test-Path $log) { Get-Content $log }
