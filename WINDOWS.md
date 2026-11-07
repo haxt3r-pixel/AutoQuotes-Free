@@ -4,7 +4,7 @@
 
 AutoQuotes Free creates repair quotes, tracks approved mechanic jobs, and records whether a completed job was paid. It runs a local server and opens in your web browser. The optional LM Studio connection can help polish notes, explain parts, and suggest priorities; the pricing calculations do not use AI.
 
-A previous Windows installer passed automated installation, startup, PDF generation, shortcut-creation, and uninstall data-preservation checks on a Windows Server runner. The revised first-launch browser download must also be verified. **The app has not yet been tested on a Windows 11 desktop.** Treat this as a test version and back up your records. The installer is unsigned, so Windows SmartScreen may show a warning.
+The Windows installer passed automated installation, first-launch browser download, launcher startup, PDF generation, shortcut creation, and uninstall data-preservation checks on a Windows Server runner. **The app has not yet been tested on a Windows 11 desktop.** Treat this as a test version and back up your records. The installer is unsigned, so Windows SmartScreen may show a warning.
 
 ## Requirements
 
