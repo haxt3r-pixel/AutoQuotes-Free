@@ -1,5 +1,5 @@
 import { spawn, spawnSync } from 'node:child_process';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -20,20 +20,28 @@ export function browserReady(appDir, browserDir) {
 
 export async function ensureBrowser(appDir, nodeExe, browserDir) {
   if (browserReady(appDir, browserDir)) return;
+  const logFile = path.join(path.dirname(browserDir), 'logs', 'browser-setup.log');
+  mkdirSync(path.dirname(logFile), { recursive: true });
   const env = { ...process.env, PLAYWRIGHT_BROWSERS_PATH: browserDir };
   delete env.PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD;
+  const isCI = process.env.CI === 'true';
   const child = spawn('powershell.exe', ['-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', setupScript,
-    '-NodeExe', nodeExe, '-AppDir', appDir], { cwd: appDir, env, detached: true, windowsHide: false, stdio: 'ignore' });
+    '-NodeExe', nodeExe, '-AppDir', appDir, '-LogFile', logFile], {
+    cwd: appDir, env, detached: !isCI, windowsHide: false, stdio: isCI ? 'inherit' : 'ignore',
+  });
   const exitCode = await new Promise((resolve, reject) => {
     const timer = setTimeout(() => {
       if (child.pid) spawnSync('taskkill.exe', ['/pid', String(child.pid), '/T', '/F'], { windowsHide: true });
-      reject(new Error('Browser setup timed out. Check your internet connection and try again.'));
+      reject(new Error(`Browser setup timed out. Check your internet connection and try again. Log: ${logFile}`));
     }, TIMEOUT_MS);
     child.once('error', error => { clearTimeout(timer); reject(error); });
     child.once('exit', code => { clearTimeout(timer); resolve(code); });
   });
-  if (exitCode !== 0 || !browserReady(appDir, browserDir)) {
-    throw new Error('Browser setup failed. Check your internet connection and try again.');
+  if (exitCode !== 0) {
+    throw new Error(`Browser setup failed (exit ${exitCode}). Check your internet connection and try again. Log: ${logFile}`);
+  }
+  if (!browserReady(appDir, browserDir)) {
+    throw new Error(`Browser setup completed but browser files were not found in ${browserDir}. Log: ${logFile}`);
   }
 }
 

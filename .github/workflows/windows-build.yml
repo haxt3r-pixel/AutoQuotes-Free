@@ -48,7 +48,12 @@ jobs:
           $browserDir = Join-Path $userData 'browsers'
           # Exercise the installed first-run browser setup, then confirm repeat use is offline.
           & $node (Join-Path $installDir 'browser-install.mjs') $app $node $browserDir
-          if ($LASTEXITCODE -ne 0) { throw 'Installed first-run browser setup failed' }
+          if ($LASTEXITCODE -ne 0) {
+            $log = Join-Path $userData 'logs/browser-setup.log'
+            if (Test-Path $log) { Get-Content $log }
+            if (Test-Path $browserDir) { Get-ChildItem -Recurse $browserDir | Select-Object -First 30 -ExpandProperty FullName }
+            throw 'Installed first-run browser setup failed'
+          }
           & $node (Join-Path $installDir 'browser-install.mjs') $app $node $browserDir
           if ($LASTEXITCODE -ne 0) { throw 'Installed cached browser validation failed' }
           # Invoke the real launcher with an isolated per-user directory.
