@@ -57,11 +57,14 @@ jobs:
           & $node (Join-Path $installDir 'browser-install.mjs') $app $node $browserDir
           if ($LASTEXITCODE -ne 0) { throw 'Installed cached browser validation failed' }
           # Invoke the real launcher with an isolated per-user directory.
-          $launch = Start-Process -FilePath 'wscript.exe' -ArgumentList @("`"$installDir/launch.vbs`"") -PassThru -Wait
-          if ($launch.ExitCode -ne 0) { throw 'Installed launcher failed' }
+          # The launcher starts a long-running server, so waiting for its process
+          # tree would block until the user closes the app. Poll health instead.
+          $launch = Start-Process -FilePath 'wscript.exe' -ArgumentList @("`"$installDir/launch.vbs`"") -PassThru
           try {
             $ready = $false
             for ($i = 0; $i -lt 60; $i++) {
+              $launch.Refresh()
+              if ($launch.HasExited -and $launch.ExitCode -ne 0) { throw 'Installed launcher failed' }
               try {
                 $health = Invoke-RestMethod 'http://127.0.0.1:3000/api/health' -TimeoutSec 2
                 if ($health.success) { $ready = $true; break }
