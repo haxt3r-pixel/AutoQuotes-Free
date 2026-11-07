@@ -144,7 +144,7 @@ The app sends the text you submit for AI actions to the configured endpoint. Kee
 
 ## Project layout
 
-`frontend/` contains the React user interface; `src/` contains the Express server, pricing logic, database repositories, integrations, and migrations. `tests/` contains automated tests. The database and other runtime files stay on the computer where you run the app. The bundled vehicle catalog is a convenience dataset; its original sources are not documented and its entries should be verified independently.
+`frontend/` contains the React user interface; `src/` contains the Express server, pricing logic, database repositories, integrations, and migrations. `tests/` contains automated tests. The database and other runtime files stay on the computer where you run the app. The bundled vehicle catalog was created as part of this project and is a convenience dataset; verify vehicle fitment independently before ordering parts.
 
 ## License
 
