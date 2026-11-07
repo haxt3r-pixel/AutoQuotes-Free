@@ -33,7 +33,7 @@ Source: "{#StageDir}\launch.vbs"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#StageDir}\message.vbs"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#StageDir}\launcher.mjs"; DestDir: "{app}"; Flags: ignoreversion
 Source: "{#StageDir}\browser-install.mjs"; DestDir: "{app}"; Flags: ignoreversion
-Source: "{#StageDir}\browser-setup.ps1"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#StageDir}\browser-progress.vbs"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{autoprograms}\AutoQuotes Free"; Filename: "{sys}\wscript.exe"; Parameters: """{app}\launch.vbs"""; WorkingDir: "{app}"

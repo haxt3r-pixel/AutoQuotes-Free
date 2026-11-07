@@ -1,9 +1,9 @@
 import { spawn, spawnSync } from 'node:child_process';
-import { existsSync, mkdirSync, readFileSync } from 'node:fs';
+import { closeSync, existsSync, mkdirSync, openSync, readFileSync, writeSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const setupScript = path.join(path.dirname(fileURLToPath(import.meta.url)), 'browser-setup.ps1');
+const progressScript = path.join(path.dirname(fileURLToPath(import.meta.url)), 'browser-progress.vbs');
 const TIMEOUT_MS = 10 * 60 * 1000;
 
 export function browserReady(appDir, browserDir) {
@@ -24,19 +24,30 @@ export async function ensureBrowser(appDir, nodeExe, browserDir) {
   mkdirSync(path.dirname(logFile), { recursive: true });
   const env = { ...process.env, PLAYWRIGHT_BROWSERS_PATH: browserDir };
   delete env.PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD;
-  const isCI = process.env.CI === 'true';
-  const child = spawn('powershell.exe', ['-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', setupScript,
-    '-NodeExe', nodeExe, '-AppDir', appDir, '-LogFile', logFile], {
-    cwd: appDir, env, detached: !isCI, windowsHide: false, stdio: isCI ? 'inherit' : 'ignore',
-  });
-  const exitCode = await new Promise((resolve, reject) => {
-    const timer = setTimeout(() => {
-      if (child.pid) spawnSync('taskkill.exe', ['/pid', String(child.pid), '/T', '/F'], { windowsHide: true });
-      reject(new Error(`Browser setup timed out. Check your internet connection and try again. Log: ${logFile}`));
-    }, TIMEOUT_MS);
-    child.once('error', error => { clearTimeout(timer); reject(error); });
-    child.once('exit', code => { clearTimeout(timer); resolve(code); });
-  });
+  // Notify without blocking the launcher; it also dismisses itself after 15 seconds.
+  const notice = spawn('wscript.exe', [progressScript], { detached: true, windowsHide: true, stdio: 'ignore' });
+  notice.once('error', () => {});
+  notice.unref();
+
+  const log = openSync(logFile, 'w', 0o600);
+  let exitCode;
+  try {
+    writeSync(log, 'Downloading browser dependencies for AutoQuotes Free.\n');
+    // Execute Node directly; no shell parsing or detached PowerShell window is involved.
+    const child = spawn(nodeExe, [path.join(appDir, 'node_modules', 'playwright', 'cli.js'), 'install', 'chromium'], {
+      cwd: appDir, env, windowsHide: true, stdio: ['ignore', log, log],
+    });
+    exitCode = await new Promise((resolve, reject) => {
+      const timer = setTimeout(() => {
+        if (child.pid) spawnSync('taskkill.exe', ['/pid', String(child.pid), '/T', '/F'], { windowsHide: true });
+        reject(new Error(`Browser setup timed out. Check your internet connection and try again. Log: ${logFile}`));
+      }, TIMEOUT_MS);
+      child.once('error', error => { clearTimeout(timer); reject(error); });
+      child.once('close', code => { clearTimeout(timer); resolve(code); });
+    });
+  } finally {
+    closeSync(log);
+  }
   if (exitCode !== 0) {
     throw new Error(`Browser setup failed (exit ${exitCode}). Check your internet connection and try again. Log: ${logFile}`);
   }

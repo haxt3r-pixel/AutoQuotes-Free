@@ -35,7 +35,7 @@ foreach ($file in @('package.json', 'package-lock.json', 'LICENSE', 'README.md',
 }
 Copy-Item -LiteralPath $nodeExe -Destination (Join-Path $node 'node.exe')
 Copy-Item -LiteralPath $nodeLicense -Destination (Join-Path $node 'LICENSE')
-foreach ($file in @('launch.vbs', 'message.vbs', 'launcher.mjs', 'browser-install.mjs', 'browser-setup.ps1')) {
+foreach ($file in @('launch.vbs', 'message.vbs', 'launcher.mjs', 'browser-install.mjs', 'browser-progress.vbs')) {
   Copy-Item -LiteralPath (Join-Path $PSScriptRoot $file) -Destination (Join-Path $stage $file)
 }
 
