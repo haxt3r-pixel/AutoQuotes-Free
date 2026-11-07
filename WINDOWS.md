@@ -27,7 +27,7 @@ The installer includes Node.js; it downloads the compatible Playwright Chromium 
 
    Confirm the hash values match before running the installer. A checksum checks file integrity; it does not provide a publisher signature.
 3. Run the installer, review the license and destination, and follow the prompts. Select **Create a desktop shortcut** if you want one. Windows may warn that the installer is unsigned; assess the warning before deciding whether to run it.
-4. Choose **Launch AutoQuotes Free** at the end of setup, or open **AutoQuotes Free** from the Start menu or desktop shortcut. On first launch, a console window shows progress while the compatible Chromium browser is downloaded; stay online and allow several minutes. Your default browser should then open `http://127.0.0.1:3000`. If the download fails or times out, the app will not start; check your connection and launch it again to retry.
+4. Choose **Launch AutoQuotes Free** at the end of setup, or open **AutoQuotes Free** from the Start menu or desktop shortcut. On first launch, the compatible Chromium browser downloads in the background; stay online and allow several minutes. Your default browser should then open `http://127.0.0.1:3000`. If the download fails or times out, the app will not start; check your connection and launch it again to retry. Details are saved in `%LOCALAPPDATA%\AutoQuotes Free\logs\browser-setup.log`.
 5. On first launch the application creates a new empty database and a generic shop profile. Set up your shop and rates before creating quotes.
 
 The default program location is `%LOCALAPPDATA%\Programs\AutoQuotes Free`. Chromium is stored under `%LOCALAPPDATA%\AutoQuotes Free\browsers`; subsequent launches can work offline as long as the matching browser files remain available. The desktop shortcut is optional; the Start menu shortcut is created by the installer. The server is designed to stop after the application tab closes, with a short grace period for refreshes. The launcher reports an error if port 3000 is already occupied.
@@ -80,7 +80,7 @@ The server is for a single local user and has no login. Do not expose it to a ne
 - **Windows warns about the installer:** The beta installer is unsigned. Verify the checksum and assess Windows' warning before choosing whether to run it.
 - **Port 3000 is in use:** Close the existing AutoQuotes Free window or stop the other service using that port, then launch again.
 - **The browser does not open:** Open `http://127.0.0.1:3000` manually after launching. If the server cannot start, check that port 3000 is free and reinstall the application if needed.
-- **The first browser download fails or PDF generation fails:** Check your internet connection and available disk space, then restart AutoQuotes Free to retry the matching Playwright Chromium download.
+- **The first browser download fails or PDF generation fails:** Check your internet connection and available disk space, then restart AutoQuotes Free to retry the matching Playwright Chromium download. For details, open `%LOCALAPPDATA%\AutoQuotes Free\logs\browser-setup.log`.
 - **Parts search or shipping fails:** Check internet access, vehicle and engine details, and shop ZIP. RockAuto can change its site, which may break automation.
 - **AI connection fails:** Load a model and start the LM Studio server. Check the URL ending in `/v1`, port, and model ID. A smaller model may be faster.
 - **Email is not sent:** Check SMTP settings and credentials. With the mail-client fallback, attach the downloaded PDF manually.
