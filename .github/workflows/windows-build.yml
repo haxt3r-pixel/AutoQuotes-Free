@@ -49,12 +49,20 @@ jobs:
           # Exercise the production detached-window path, then confirm repeat use is offline.
           $originalCI = $env:CI
           $env:CI = 'false'
+          # Preserve the native exit code so diagnostics run even when Node exits nonzero.
+          $originalNativePreference = $PSNativeCommandUseErrorActionPreference
+          $PSNativeCommandUseErrorActionPreference = $false
           & $node (Join-Path $installDir 'browser-install.mjs') $app $node $browserDir
+          $browserSetupExit = $LASTEXITCODE
+          $PSNativeCommandUseErrorActionPreference = $originalNativePreference
           $env:CI = $originalCI
-          if ($LASTEXITCODE -ne 0) {
+          if ($browserSetupExit -ne 0) {
             $log = Join-Path $userData 'logs/browser-setup.log'
-            if (Test-Path $log) { Get-Content $log }
-            if (Test-Path $browserDir) { Get-ChildItem -Recurse $browserDir | Select-Object -First 30 -ExpandProperty FullName }
+            Write-Host "Browser setup exit code: $browserSetupExit"
+            Write-Host "Transcript exists: $(Test-Path $log)"
+            if (Test-Path $log) { Get-Content $log -ErrorAction Continue }
+            Write-Host "Browser directory exists: $(Test-Path $browserDir)"
+            if (Test-Path $userData) { Get-ChildItem -Recurse $userData -ErrorAction Continue | Select-Object -First 50 -ExpandProperty FullName }
             throw 'Installed first-run browser setup failed'
           }
           & $node (Join-Path $installDir 'browser-install.mjs') $app $node $browserDir

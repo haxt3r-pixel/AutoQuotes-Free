@@ -41,7 +41,9 @@ export async function ensureBrowser(appDir, nodeExe, browserDir) {
     throw new Error(`Browser setup failed (exit ${exitCode}). Check your internet connection and try again. Log: ${logFile}`);
   }
   if (!browserReady(appDir, browserDir)) {
-    throw new Error(`Browser setup completed but browser files were not found in ${browserDir}. Log: ${logFile}`);
+    const logExists = existsSync(logFile);
+    const browserDirectoryExists = existsSync(browserDir);
+    throw new Error(`Browser setup completed but browser files were not found in ${browserDir}. Browser directory exists: ${browserDirectoryExists}; log exists: ${logExists}. Log: ${logFile}`);
   }
 }
 
