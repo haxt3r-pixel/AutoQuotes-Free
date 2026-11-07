@@ -1,0 +1,8904 @@
+[
+  {
+    "make": "Acura",
+    "models": [
+      {
+        "model": "Integra",
+        "years": [
+          1990,
+          2001
+        ],
+        "trims": [
+          {
+            "trim": "LS",
+            "engine": "1.8L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GS",
+            "engine": "1.8L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GS-R",
+            "engine": "1.8L I4 VTEC",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Type R",
+            "engine": "1.8L I4 VTEC",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "RSX",
+        "years": [
+          2002,
+          2006
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Type-S",
+            "engine": "2.0L I4 VTEC",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "TL",
+        "years": [
+          1995,
+          2014
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "3.2L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Type-S",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SH-AWD",
+            "engine": "3.7L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "TLX",
+        "years": [
+          2015,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Technology",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "V6",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "V6 SH-AWD",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "A-Spec",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Type S",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "RL",
+        "years": [
+          1996,
+          2012
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SH-AWD",
+            "engine": "3.7L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "RLX",
+        "years": [
+          2014,
+          2020
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Sport Hybrid SH-AWD",
+            "engine": "3.5L V6 Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "CL",
+        "years": [
+          1997,
+          2003
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.2L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "3.0",
+            "engine": "3.0L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Type-S",
+            "engine": "3.2L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Legend",
+        "years": [
+          1988,
+          1995
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.7L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LS",
+            "engine": "3.2L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Vigor",
+        "years": [
+          1992,
+          1994
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.5L I5",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GS",
+            "engine": "2.5L I5",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "TSX",
+        "years": [
+          2004,
+          2014
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "V6",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Sport Wagon",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "ILX",
+        "years": [
+          2013,
+          2022
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "2.4L",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "A-Spec",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "RDX",
+        "years": [
+          2007,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.3L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Technology",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "A-Spec",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Advance",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "MDX",
+        "years": [
+          2001,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Technology",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "A-Spec",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Advance",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Type S",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "ZDX",
+        "years": [
+          2024,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "A-Spec",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Type S",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Alfa Romeo",
+    "models": [
+      {
+        "model": "Giulia",
+        "years": [
+          2017,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Ti",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Quadrifoglio",
+            "engine": "2.9L V6 Twin Turbo",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "Stelvio",
+        "years": [
+          2018,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Ti",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Quadrifoglio",
+            "engine": "2.9L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Audi",
+    "models": [
+      {
+        "model": "A3",
+        "years": [
+          2006,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Premium",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Premium Plus",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Prestige",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "S3",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "RS3",
+            "engine": "2.5L I5 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "A4",
+        "years": [
+          1996,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Premium",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium Plus",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Prestige",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "S4",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "A5",
+        "years": [
+          2008,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Premium",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium Plus",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Prestige",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "S5",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "RS5",
+            "engine": "2.9L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "A6",
+        "years": [
+          1998,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Premium",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium Plus",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Prestige",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "S6",
+            "engine": "2.9L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "A7",
+        "years": [
+          2012,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Premium Plus",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Prestige",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "S7",
+            "engine": "2.9L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "A8",
+        "years": [
+          1997,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "L",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "S8",
+            "engine": "4.0L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Q3",
+        "years": [
+          2015,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Premium",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium Plus",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Prestige",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Q5",
+        "years": [
+          2009,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Premium",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium Plus",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Prestige",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SQ5",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Q7",
+        "years": [
+          2007,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Premium",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium Plus",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Prestige",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SQ7",
+            "engine": "4.0L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Q8",
+        "years": [
+          2019,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Premium Plus",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Prestige",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SQ8",
+            "engine": "4.0L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "RS Q8",
+            "engine": "4.0L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "e-tron",
+        "years": [
+          2019,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Premium",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium Plus",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Prestige",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "S",
+            "engine": "Electric Triple Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "BMW",
+    "models": [
+      {
+        "model": "3 Series",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "320i",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "325i",
+            "engine": "2.5L I6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "328i",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "330i",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "330i xDrive",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "M340i",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "M340i xDrive",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "M3",
+            "engine": "3.0L I6 Twin Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "M3 Competition xDrive",
+            "engine": "3.0L I6 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "5 Series",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "530i",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "530i xDrive",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "540i",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "540i xDrive",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "M550i",
+            "engine": "4.4L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "M5",
+            "engine": "4.4L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "7 Series",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "740i",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "750i xDrive",
+            "engine": "4.4L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "760i xDrive",
+            "engine": "4.4L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "X1",
+        "years": [
+          2013,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "sDrive28i",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "xDrive28i",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "M235i xDrive",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "X3",
+        "years": [
+          2004,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "sDrive30i",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "xDrive30i",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "M40i",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "X3 M",
+            "engine": "3.0L I6 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "X5",
+        "years": [
+          2000,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "sDrive40i",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "xDrive40i",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "M60i",
+            "engine": "4.4L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "X5 M",
+            "engine": "4.4L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "X7",
+        "years": [
+          2019,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "xDrive40i",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "M60i",
+            "engine": "4.4L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Buick",
+    "models": [
+      {
+        "model": "Century",
+        "years": [
+          1988,
+          2005
+        ],
+        "trims": [
+          {
+            "trim": "Custom",
+            "engine": "3.1L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.1L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Enclave",
+        "years": [
+          2008,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Essence",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Avenir",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Encore",
+        "years": [
+          2013,
+          2022
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "1.4L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Essence",
+            "engine": "1.4L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Encore GX",
+        "years": [
+          2020,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Preferred",
+            "engine": "1.2L I3 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Essence",
+            "engine": "1.3L I3 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Avenir",
+            "engine": "1.3L I3 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Envista",
+        "years": [
+          2024,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Preferred",
+            "engine": "1.2L I3 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Avenir",
+            "engine": "1.2L I3 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Envision",
+        "years": [
+          2016,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Preferred",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Essence",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Avenir",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "LaCrosse",
+        "years": [
+          2005,
+          2019
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Avenir",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "LeSabre",
+        "years": [
+          1988,
+          2005
+        ],
+        "trims": [
+          {
+            "trim": "Custom",
+            "engine": "3.8L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.8L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Lucerne",
+        "years": [
+          2006,
+          2011
+        ],
+        "trims": [
+          {
+            "trim": "CX",
+            "engine": "3.8L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "CXL",
+            "engine": "3.9L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Super",
+            "engine": "4.6L V8",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Park Avenue",
+        "years": [
+          1991,
+          2005
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "3.8L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Ultra",
+            "engine": "3.8L V6 Supercharged",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Regal",
+        "years": [
+          1988,
+          2020
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GS",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "TourX",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Rendezvous",
+        "years": [
+          2002,
+          2007
+        ],
+        "trims": [
+          {
+            "trim": "CX",
+            "engine": "3.4L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "CXL",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Roadmaster",
+        "years": [
+          1991,
+          1996
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "5.7L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "5.7L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Estate Wagon",
+            "engine": "5.7L V8",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "Skylark",
+        "years": [
+          1988,
+          1998
+        ],
+        "trims": [
+          {
+            "trim": "Custom",
+            "engine": "2.3L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.1L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Cadillac",
+    "models": [
+      {
+        "model": "ATS",
+        "years": [
+          2013,
+          2019
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Luxury",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "ATS-V",
+            "engine": "3.6L V6 Twin Turbo",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "CT4",
+        "years": [
+          2020,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Luxury",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Premium Luxury",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "2.7L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "CT4-V",
+            "engine": "2.7L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "CT4-V Blackwing",
+            "engine": "3.6L V6 Twin Turbo",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "CT5",
+        "years": [
+          2020,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Luxury",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Premium Luxury",
+            "engine": "3.0L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "3.0L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "CT5-V",
+            "engine": "3.0L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "CT5-V Blackwing",
+            "engine": "6.2L V8 Supercharged",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "CTS",
+        "years": [
+          2003,
+          2019
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Luxury",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "VSport",
+            "engine": "3.6L V6 Twin Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "CTS-V",
+            "engine": "6.2L V8 Supercharged",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "DeVille",
+        "years": [
+          1988,
+          2005
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "4.9L V8",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "DHS",
+            "engine": "4.6L V8",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "DTS",
+            "engine": "4.6L V8",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "DTS",
+        "years": [
+          2006,
+          2011
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "4.6L V8",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Luxury",
+            "engine": "4.6L V8",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "4.6L V8",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Eldorado",
+        "years": [
+          1988,
+          2002
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "4.9L V8",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "ETC",
+            "engine": "4.6L V8",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Escalade",
+        "years": [
+          1999,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Luxury",
+            "engine": "6.2L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Premium Luxury",
+            "engine": "6.2L V8",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "6.2L V8",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "6.2L V8",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "ESV",
+            "engine": "6.2L V8",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Escalade-V",
+            "engine": "6.2L V8 Supercharged",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "IQ",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "SRX",
+        "years": [
+          2004,
+          2016
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Luxury",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "XT4",
+        "years": [
+          2019,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Luxury",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Premium Luxury",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "XT5",
+        "years": [
+          2017,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Luxury",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Premium Luxury",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "XT6",
+        "years": [
+          2020,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Luxury",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Premium Luxury",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "LYRIQ",
+        "years": [
+          2023,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Tech",
+            "engine": "Electric RWD",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Luxury",
+            "engine": "Electric AWD",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "Electric AWD",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Chevrolet",
+    "models": [
+      {
+        "model": "Astro",
+        "years": [
+          1988,
+          2005
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "4.3L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "LS",
+            "engine": "4.3L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "4.3L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Avalanche",
+        "years": [
+          2002,
+          2013
+        ],
+        "trims": [
+          {
+            "trim": "LS",
+            "engine": "5.3L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "5.3L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "LTZ",
+            "engine": "5.3L V8",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Blazer",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LS",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "RS",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premier",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Camaro",
+        "years": [
+          1988,
+          2024
+        ],
+        "trims": [
+          {
+            "trim": "LS",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "3.6L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "SS",
+            "engine": "6.2L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "ZL1",
+            "engine": "6.2L V8 Supercharged",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "Caprice",
+        "years": [
+          1988,
+          1996
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "5.0L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Classic",
+            "engine": "5.7L V8",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "Colorado",
+        "years": [
+          2004,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "WT",
+            "engine": "2.5L I4",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "3.6L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Z71",
+            "engine": "3.6L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "ZR2",
+            "engine": "2.7L I4 Turbo",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Corvette",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Stingray",
+            "engine": "6.2L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Z06",
+            "engine": "5.5L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "E-Ray",
+            "engine": "6.2L V8 Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "ZR1",
+            "engine": "5.5L V8 Twin Turbo",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "Cruze",
+        "years": [
+          2011,
+          2019
+        ],
+        "trims": [
+          {
+            "trim": "L",
+            "engine": "1.4L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LS",
+            "engine": "1.4L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "1.4L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Premier",
+            "engine": "1.4L I4 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Equinox",
+        "years": [
+          2005,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LS",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "RS",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premier",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Express",
+        "years": [
+          1996,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "2500",
+            "engine": "4.3L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "3500",
+            "engine": "6.0L V8",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "Impala",
+        "years": [
+          1988,
+          2020
+        ],
+        "trims": [
+          {
+            "trim": "LS",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Premier",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Lumina",
+        "years": [
+          1990,
+          2001
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "3.1L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LS",
+            "engine": "3.4L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Malibu",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LS",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "RS",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Premier",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Monte Carlo",
+        "years": [
+          1988,
+          2007
+        ],
+        "trims": [
+          {
+            "trim": "LS",
+            "engine": "3.4L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "3.8L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SS",
+            "engine": "3.8L V6 Supercharged",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "S-10",
+        "years": [
+          1988,
+          2004
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.2L I4",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "LS",
+            "engine": "4.3L V6",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Silverado 1500",
+        "years": [
+          1999,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "WT",
+            "engine": "2.7L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "5.3L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "RST",
+            "engine": "5.3L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "LTZ",
+            "engine": "5.3L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "High Country",
+            "engine": "6.2L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "ZR2",
+            "engine": "6.2L V8",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Silverado 2500HD",
+        "years": [
+          2001,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "WT",
+            "engine": "6.6L V8 Gas",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "6.6L V8 Duramax Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "LTZ",
+            "engine": "6.6L V8 Duramax Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "High Country",
+            "engine": "6.6L V8 Duramax Diesel",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Suburban",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LS",
+            "engine": "5.3L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "5.3L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "RST",
+            "engine": "5.3L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Premier",
+            "engine": "6.2L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "High Country",
+            "engine": "6.2L V8",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Tahoe",
+        "years": [
+          1995,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LS",
+            "engine": "5.3L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "5.3L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "RST",
+            "engine": "5.3L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Premier",
+            "engine": "6.2L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "High Country",
+            "engine": "6.2L V8",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Trailblazer",
+        "years": [
+          2002,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LS",
+            "engine": "1.2L I3 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "1.3L I3 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Activ",
+            "engine": "1.3L I3 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Traverse",
+        "years": [
+          2009,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LS",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "RS",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premier",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Trax",
+        "years": [
+          2013,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LS",
+            "engine": "1.2L I3 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LT",
+            "engine": "1.2L I3 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Activ",
+            "engine": "1.2L I3 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Chrysler",
+    "models": [
+      {
+        "model": "200",
+        "years": [
+          2011,
+          2017
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "S",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "300",
+        "years": [
+          2005,
+          2023
+        ],
+        "trims": [
+          {
+            "trim": "Touring",
+            "engine": "3.6L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "300S",
+            "engine": "5.7L V8 Hemi",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "C",
+            "engine": "5.7L V8 Hemi",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "Concorde",
+        "years": [
+          1993,
+          2004
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "2.7L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LXi",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Pacifica",
+        "years": [
+          2004,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Touring",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Pinnacle",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "PHEV",
+            "engine": "3.6L V6 Plug-in Hybrid",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "PT Cruiser",
+        "years": [
+          2001,
+          2010
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.4L I4 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Sebring",
+        "years": [
+          1995,
+          2010
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Town & Country",
+        "years": [
+          1990,
+          2016
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Touring",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Base",
+            "engine": "3.3L V6",
+            "drivetrain": "FWD",
+            "yearStart": 2004,
+            "yearEnd": 2007
+          },
+          {
+            "trim": "LX",
+            "engine": "3.3L V6",
+            "drivetrain": "FWD",
+            "yearStart": 2004,
+            "yearEnd": 2007
+          },
+          {
+            "trim": "Touring",
+            "engine": "3.8L V6",
+            "drivetrain": "FWD",
+            "yearStart": 2004,
+            "yearEnd": 2007
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.8L V6",
+            "drivetrain": "FWD",
+            "yearStart": 2004,
+            "yearEnd": 2007
+          }
+        ]
+      },
+      {
+        "model": "Voyager",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LXi",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Dodge",
+    "models": [
+      {
+        "model": "Avenger",
+        "years": [
+          1995,
+          2014
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SXT",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Caliber",
+        "years": [
+          2007,
+          2012
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "1.8L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SXT",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SRT4",
+            "engine": "2.4L I4 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Caravan",
+        "years": [
+          1988,
+          2020
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SXT",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GT",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Challenger",
+        "years": [
+          2008,
+          2023
+        ],
+        "trims": [
+          {
+            "trim": "SXT",
+            "engine": "3.6L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "R/T",
+            "engine": "5.7L V8 Hemi",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Scat Pack",
+            "engine": "6.4L V8 Hemi",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "SRT Hellcat",
+            "engine": "6.2L V8 Supercharged",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "SRT Demon",
+            "engine": "6.2L V8 Supercharged",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "Charger",
+        "years": [
+          1988,
+          2023
+        ],
+        "trims": [
+          {
+            "trim": "SXT",
+            "engine": "3.6L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "R/T",
+            "engine": "5.7L V8 Hemi",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Scat Pack",
+            "engine": "6.4L V8 Hemi",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "SRT Hellcat",
+            "engine": "6.2L V8 Supercharged",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "Dakota",
+        "years": [
+          1988,
+          2011
+        ],
+        "trims": [
+          {
+            "trim": "ST",
+            "engine": "3.7L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "SLT",
+            "engine": "4.7L V8",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Dart",
+        "years": [
+          2013,
+          2016
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SXT",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GT",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Durango",
+        "years": [
+          1998,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SXT",
+            "engine": "3.6L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "GT",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "R/T",
+            "engine": "5.7L V8 Hemi",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SRT 392",
+            "engine": "6.4L V8 Hemi",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SRT Hellcat",
+            "engine": "6.2L V8 Supercharged",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Grand Caravan",
+        "years": [
+          2008,
+          2020
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SXT",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GT",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Hornet",
+        "years": [
+          2023,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "GT",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "R/T PHEV",
+            "engine": "1.3L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Intrepid",
+        "years": [
+          1993,
+          2004
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "2.7L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "ES",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "R/T",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Journey",
+        "years": [
+          2009,
+          2020
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SXT",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "GT",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Neon",
+        "years": [
+          1995,
+          2005
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SXT",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SRT-4",
+            "engine": "2.4L I4 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Ram 1500",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Tradesman",
+            "engine": "3.6L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Big Horn",
+            "engine": "5.7L V8 Hemi",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Laramie",
+            "engine": "5.7L V8 Hemi",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Rebel",
+            "engine": "5.7L V8 Hemi",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "5.7L V8 Hemi",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "TRX",
+            "engine": "6.2L V8 Supercharged",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Ram 2500",
+        "years": [
+          1994,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Tradesman",
+            "engine": "6.4L V8 Hemi",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Big Horn",
+            "engine": "6.7L I6 Cummins Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Laramie",
+            "engine": "6.7L I6 Cummins Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "6.7L I6 Cummins Diesel",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Ram 3500",
+        "years": [
+          1994,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Tradesman",
+            "engine": "6.4L V8 Hemi",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Big Horn",
+            "engine": "6.7L I6 Cummins Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Laramie",
+            "engine": "6.7L I6 Cummins Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "6.7L I6 Cummins Diesel",
+            "drivetrain": "4WD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Ford",
+    "models": [
+      {
+        "model": "Bronco",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.3L I4 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Big Bend",
+            "engine": "2.3L I4 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Outer Banks",
+            "engine": "2.3L I4 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Badlands",
+            "engine": "2.7L V6 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Wildtrak",
+            "engine": "2.7L V6 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Raptor",
+            "engine": "3.0L V6 EcoBoost",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Bronco Sport",
+        "years": [
+          2021,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "1.5L I3 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Big Bend",
+            "engine": "1.5L I3 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Outer Banks",
+            "engine": "1.5L I3 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Badlands",
+            "engine": "2.0L I4 EcoBoost",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Crown Victoria",
+        "years": [
+          1988,
+          2011
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "4.6L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "LX",
+            "engine": "4.6L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Police Interceptor",
+            "engine": "4.6L V8",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "E-150",
+        "years": [
+          1988,
+          2014
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "4.9L I6",
+            "drivetrain": "RWD",
+            "yearStart": 1988,
+            "yearEnd": 1996
+          },
+          {
+            "trim": "Base",
+            "engine": "4.6L V8",
+            "drivetrain": "RWD",
+            "yearStart": 1997,
+            "yearEnd": 2014
+          }
+        ]
+      },
+      {
+        "model": "E-250",
+        "years": [
+          1988,
+          2014
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "5.8L V8",
+            "drivetrain": "RWD",
+            "yearStart": 1988,
+            "yearEnd": 1996
+          },
+          {
+            "trim": "Base",
+            "engine": "5.4L V8",
+            "drivetrain": "RWD",
+            "yearStart": 1997,
+            "yearEnd": 2014
+          }
+        ]
+      },
+      {
+        "model": "E-350",
+        "years": [
+          1988,
+          2014
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "5.8L V8",
+            "drivetrain": "RWD",
+            "yearStart": 1988,
+            "yearEnd": 1996
+          },
+          {
+            "trim": "Club Wagon",
+            "engine": "7.5L V8",
+            "drivetrain": "RWD",
+            "yearStart": 1988,
+            "yearEnd": 1996
+          },
+          {
+            "trim": "Base",
+            "engine": "5.4L V8",
+            "drivetrain": "RWD",
+            "yearStart": 1997,
+            "yearEnd": 2014
+          },
+          {
+            "trim": "Base",
+            "engine": "6.8L V10",
+            "drivetrain": "RWD",
+            "yearStart": 1997,
+            "yearEnd": 2014
+          }
+        ]
+      },
+      {
+        "model": "E-350 Super Duty",
+        "years": [
+          1999,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "5.4L V8",
+            "drivetrain": "RWD",
+            "yearStart": 1999,
+            "yearEnd": 2020
+          },
+          {
+            "trim": "Base",
+            "engine": "6.8L V10",
+            "drivetrain": "RWD",
+            "yearStart": 1999,
+            "yearEnd": 2020
+          },
+          {
+            "trim": "Cutaway",
+            "engine": "7.3L V8",
+            "drivetrain": "RWD",
+            "yearStart": 2021,
+            "yearEnd": 2025
+          }
+        ]
+      },
+      {
+        "model": "EcoSport",
+        "years": [
+          2018,
+          2022
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "1.0L I3 EcoBoost",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SE",
+            "engine": "2.0L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Titanium",
+            "engine": "2.0L I4",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Edge",
+        "years": [
+          2007,
+          2024
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "2.0L I4 EcoBoost",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "2.0L I4 EcoBoost",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Titanium",
+            "engine": "2.0L I4 EcoBoost",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "ST",
+            "engine": "2.7L V6 EcoBoost",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Escape",
+        "years": [
+          2001,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "1.5L I3 EcoBoost",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SE",
+            "engine": "1.5L I3 EcoBoost",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "2.0L I4 EcoBoost",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Titanium",
+            "engine": "2.0L I4 EcoBoost",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "PHEV",
+            "engine": "2.5L I4 Plug-in Hybrid",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Excursion",
+        "years": [
+          2000,
+          2005
+        ],
+        "trims": [
+          {
+            "trim": "XLT",
+            "engine": "5.4L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "6.8L V10",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Diesel",
+            "engine": "6.0L V8 Power Stroke",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Expedition",
+        "years": [
+          1997,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "XLT",
+            "engine": "3.5L V6 EcoBoost",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.5L V6 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "King Ranch",
+            "engine": "3.5L V6 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "3.5L V6 EcoBoost",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Explorer",
+        "years": [
+          1991,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.3L I4 EcoBoost",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "XLT",
+            "engine": "2.3L I4 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.0L V6 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "ST",
+            "engine": "3.0L V6 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "3.0L V6 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Timberline",
+            "engine": "2.3L I4 EcoBoost",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "F-150",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "XL",
+            "engine": "4.9L I6",
+            "drivetrain": "RWD",
+            "yearStart": 1988,
+            "yearEnd": 1996
+          },
+          {
+            "trim": "XLT",
+            "engine": "5.0L V8",
+            "drivetrain": "RWD",
+            "yearStart": 1988,
+            "yearEnd": 1996
+          },
+          {
+            "trim": "XLT",
+            "engine": "5.8L V8",
+            "drivetrain": "4WD",
+            "yearStart": 1988,
+            "yearEnd": 1996
+          },
+          {
+            "trim": "XL",
+            "engine": "4.2L V6",
+            "drivetrain": "RWD",
+            "yearStart": 1997,
+            "yearEnd": 2008
+          },
+          {
+            "trim": "XLT",
+            "engine": "4.6L V8",
+            "drivetrain": "RWD",
+            "yearStart": 1997,
+            "yearEnd": 2010
+          },
+          {
+            "trim": "Lariat",
+            "engine": "5.4L V8",
+            "drivetrain": "4WD",
+            "yearStart": 1997,
+            "yearEnd": 2010
+          },
+          {
+            "trim": "XLT",
+            "engine": "3.5L V6 EcoBoost",
+            "drivetrain": "4WD",
+            "yearStart": 2011,
+            "yearEnd": 2025
+          },
+          {
+            "trim": "Lariat",
+            "engine": "5.0L V8",
+            "drivetrain": "4WD",
+            "yearStart": 2011,
+            "yearEnd": 2025
+          },
+          {
+            "trim": "Raptor",
+            "engine": "3.5L V6 EcoBoost HO",
+            "drivetrain": "4WD",
+            "yearStart": 2017,
+            "yearEnd": 2025
+          },
+          {
+            "trim": "Lightning",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD",
+            "yearStart": 2022,
+            "yearEnd": 2025
+          }
+        ]
+      },
+      {
+        "model": "F-250 Super Duty",
+        "years": [
+          1999,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "XL",
+            "engine": "6.8L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "XLT",
+            "engine": "7.3L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Lariat",
+            "engine": "6.7L V8 Power Stroke Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "King Ranch",
+            "engine": "6.7L V8 Power Stroke Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "6.7L V8 Power Stroke Diesel",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "F-350 Super Duty",
+        "years": [
+          1999,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "XL",
+            "engine": "6.8L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "XLT",
+            "engine": "7.3L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Lariat",
+            "engine": "6.7L V8 Power Stroke Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "King Ranch",
+            "engine": "6.7L V8 Power Stroke Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "6.7L V8 Power Stroke Diesel",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Fiesta",
+        "years": [
+          2010,
+          2019
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "1.6L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SE",
+            "engine": "1.6L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "ST",
+            "engine": "1.6L I4 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Flex",
+        "years": [
+          2009,
+          2019
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.5L V6 EcoBoost",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Focus",
+        "years": [
+          2000,
+          2018
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SE",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Titanium",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "ST",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "RS",
+            "engine": "2.3L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Fusion",
+        "years": [
+          2006,
+          2020
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SE",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Titanium",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "2.7L V6 EcoBoost",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Energi",
+            "engine": "2.0L I4 Plug-in Hybrid",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Maverick",
+        "years": [
+          2022,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "XL",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "XLT",
+            "engine": "2.0L I4 EcoBoost",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Lariat",
+            "engine": "2.0L I4 EcoBoost",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Tremor",
+            "engine": "2.0L I4 EcoBoost",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Mustang",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "EcoBoost",
+            "engine": "2.3L I4 EcoBoost",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "GT",
+            "engine": "5.0L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "GT Premium",
+            "engine": "5.0L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Mach 1",
+            "engine": "5.0L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Dark Horse",
+            "engine": "5.0L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Shelby GT500",
+            "engine": "5.2L V8 Supercharged",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "Mustang Mach-E",
+        "years": [
+          2021,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Select",
+            "engine": "Electric RWD",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "California Route 1",
+            "engine": "Electric RWD",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "GT",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Ranger",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "XL",
+            "engine": "2.3L I4 EcoBoost",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "XLT",
+            "engine": "2.3L I4 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Lariat",
+            "engine": "2.3L I4 EcoBoost",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Raptor",
+            "engine": "3.0L V6 EcoBoost",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Taurus",
+        "years": [
+          1988,
+          2019
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.5L V6 EcoBoost",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SHO",
+            "engine": "3.5L V6 EcoBoost",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Transit Connect",
+        "years": [
+          2010,
+          2023
+        ],
+        "trims": [
+          {
+            "trim": "XL",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "XLT",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Transit",
+        "years": [
+          2015,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "150",
+            "engine": "3.5L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "250",
+            "engine": "3.5L V6 EcoBoost",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "350",
+            "engine": "3.5L V6 EcoBoost",
+            "drivetrain": "RWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "GMC",
+    "models": [
+      {
+        "model": "Acadia",
+        "years": [
+          2007,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SLE",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SLT",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "AT4",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Denali",
+            "engine": "3.6L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Canyon",
+        "years": [
+          2004,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Elevation",
+            "engine": "2.7L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "AT4",
+            "engine": "2.7L I4 Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Denali",
+            "engine": "2.7L I4 Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "AT4X",
+            "engine": "2.7L I4 Turbo",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Savana",
+        "years": [
+          1996,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "2500",
+            "engine": "4.3L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "3500",
+            "engine": "6.0L V8",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "Sierra 1500",
+        "years": [
+          1999,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Pro",
+            "engine": "2.7L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "SLE",
+            "engine": "5.3L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "SLT",
+            "engine": "5.3L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "AT4",
+            "engine": "5.3L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Denali",
+            "engine": "6.2L V8",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Sierra 2500HD",
+        "years": [
+          2001,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Pro",
+            "engine": "6.6L V8 Gas",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "SLE",
+            "engine": "6.6L V8 Duramax Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "SLT",
+            "engine": "6.6L V8 Duramax Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "AT4",
+            "engine": "6.6L V8 Duramax Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Denali",
+            "engine": "6.6L V8 Duramax Diesel",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Terrain",
+        "years": [
+          2010,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SLE",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SLT",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "AT4",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Denali",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Yukon",
+        "years": [
+          1992,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SLE",
+            "engine": "5.3L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "SLT",
+            "engine": "5.3L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "AT4",
+            "engine": "5.3L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Denali",
+            "engine": "6.2L V8",
+            "drivetrain": "4WD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Honda",
+    "models": [
+      {
+        "model": "Accord",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX-L",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Touring",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Hybrid Sport",
+            "engine": "2.0L I4 Hybrid",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Hybrid Touring",
+            "engine": "2.0L I4 Hybrid",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Civic",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX-L",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Touring",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Si",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Type R",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "CR-V",
+        "years": [
+          1997,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "EX-L",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Touring",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Hybrid Sport",
+            "engine": "2.0L I4 Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Hybrid Touring",
+            "engine": "2.0L I4 Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Element",
+        "years": [
+          2003,
+          2011
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "2.4L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SC",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Fit",
+        "years": [
+          2007,
+          2020
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "1.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "1.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "1.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX-L",
+            "engine": "1.5L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "HR-V",
+        "years": [
+          2016,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "2.0L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "EX-L",
+            "engine": "2.0L I4",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Insight",
+        "years": [
+          2000,
+          2022
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "1.5L I4 Hybrid",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "1.5L I4 Hybrid",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Touring",
+            "engine": "1.5L I4 Hybrid",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Odyssey",
+        "years": [
+          1995,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX-L",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Touring",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Elite",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Passport",
+        "years": [
+          1994,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "EX-L",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Touring",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Elite",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "TrailSport",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Pilot",
+        "years": [
+          2003,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD",
+            "yearStart": 2003,
+            "yearEnd": 2022
+          },
+          {
+            "trim": "EX",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD",
+            "yearStart": 2003,
+            "yearEnd": 2021
+          },
+          {
+            "trim": "EX-L",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD",
+            "yearStart": 2003,
+            "yearEnd": 2025
+          },
+          {
+            "trim": "Touring",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD",
+            "yearStart": 2009,
+            "yearEnd": 2025
+          },
+          {
+            "trim": "Elite",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD",
+            "yearStart": 2016,
+            "yearEnd": 2025
+          },
+          {
+            "trim": "TrailSport",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD",
+            "yearStart": 2022,
+            "yearEnd": 2025
+          },
+          {
+            "trim": "Black Edition",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD",
+            "yearStart": 2020,
+            "yearEnd": 2025
+          }
+        ]
+      },
+      {
+        "model": "Prelude",
+        "years": [
+          1988,
+          2001
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.2L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Si",
+            "engine": "2.3L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SH",
+            "engine": "2.2L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Ridgeline",
+        "years": [
+          2006,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Sport",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "RTL",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "RTL-E",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Black Edition",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "TrailSport",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Hyundai",
+    "models": [
+      {
+        "model": "Accent",
+        "years": [
+          1995,
+          2022
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "1.6L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "1.6L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "1.6L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Elantra",
+        "years": [
+          1992,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "1.6L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "N Line",
+            "engine": "1.6L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "N",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Hybrid",
+            "engine": "1.6L I4 Hybrid",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Elantra GT",
+        "years": [
+          2013,
+          2020
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "N Line",
+            "engine": "1.6L I4 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Ioniq 5",
+        "years": [
+          2022,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "Electric RWD",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Ioniq 6",
+        "years": [
+          2023,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "Electric RWD",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Kona",
+        "years": [
+          2018,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "1.6L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "1.6L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "N Line",
+            "engine": "1.6L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Electric",
+            "engine": "Electric FWD",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Palisade",
+        "years": [
+          2020,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "3.8L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "3.8L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.8L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Calligraphy",
+            "engine": "3.8L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Santa Cruz",
+        "years": [
+          2022,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Santa Fe",
+        "years": [
+          2001,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Calligraphy",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Hybrid",
+            "engine": "1.6L I4 Turbo Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "PHEV",
+            "engine": "1.6L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Sonata",
+        "years": [
+          1989,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "1.6L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "N Line",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Hybrid",
+            "engine": "2.0L I4 Hybrid",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Tucson",
+        "years": [
+          2005,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "N Line",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Hybrid",
+            "engine": "1.6L I4 Turbo Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "PHEV",
+            "engine": "1.6L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Venue",
+        "years": [
+          2020,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "1.6L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "1.6L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "1.6L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Infiniti",
+    "models": [
+      {
+        "model": "G20",
+        "years": [
+          1991,
+          2002
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "G35",
+        "years": [
+          2003,
+          2008
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "3.5L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "AWD",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "G37",
+        "years": [
+          2008,
+          2013
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "3.7L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "AWD",
+            "engine": "3.7L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "JX35",
+        "years": [
+          2013,
+          2013
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "AWD",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "M35",
+        "years": [
+          2006,
+          2010
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "3.5L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "AWD",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "M37",
+        "years": [
+          2011,
+          2013
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "3.7L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "AWD",
+            "engine": "3.7L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Q50",
+        "years": [
+          2014,
+          2024
+        ],
+        "trims": [
+          {
+            "trim": "Luxe",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Sensory",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Red Sport 400",
+            "engine": "3.0L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Q60",
+        "years": [
+          2017,
+          2022
+        ],
+        "trims": [
+          {
+            "trim": "Luxe",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Red Sport 400",
+            "engine": "3.0L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "QX50",
+        "years": [
+          2008,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Pure",
+            "engine": "2.0L I4 Turbo VC-Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Luxe",
+            "engine": "2.0L I4 Turbo VC-Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Sensory",
+            "engine": "2.0L I4 Turbo VC-Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "QX55",
+        "years": [
+          2022,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Luxe",
+            "engine": "2.0L I4 Turbo VC-Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Sensory",
+            "engine": "2.0L I4 Turbo VC-Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "QX60",
+        "years": [
+          2013,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Pure",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Luxe",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Sensory",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "QX80",
+        "years": [
+          2011,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Luxe",
+            "engine": "5.6L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Sensory",
+            "engine": "5.6L V8",
+            "drivetrain": "4WD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Jeep",
+    "models": [
+      {
+        "model": "Cherokee",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Sport",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Latitude",
+            "engine": "3.2L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.2L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Trailhawk",
+            "engine": "3.2L V6",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Compass",
+        "years": [
+          2007,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Sport",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Latitude",
+            "engine": "2.4L I4",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.4L I4",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Trailhawk",
+            "engine": "2.4L I4",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Gladiator",
+        "years": [
+          2020,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Sport",
+            "engine": "3.6L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Overland",
+            "engine": "3.6L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Rubicon",
+            "engine": "3.6L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Mojave",
+            "engine": "3.6L V6",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Grand Cherokee",
+        "years": [
+          1993,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Laredo",
+            "engine": "3.6L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.6L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Overland",
+            "engine": "5.7L V8 Hemi",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Summit",
+            "engine": "5.7L V8 Hemi",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Trailhawk",
+            "engine": "3.6L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Trackhawk",
+            "engine": "6.2L V8 Supercharged",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "4xe PHEV",
+            "engine": "2.0L I4 Plug-in Hybrid",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Grand Wagoneer",
+        "years": [
+          2022,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Series I",
+            "engine": "3.0L I6 Twin Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Series II",
+            "engine": "3.0L I6 Twin Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Series III",
+            "engine": "3.0L I6 Twin Turbo",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Liberty",
+        "years": [
+          2002,
+          2012
+        ],
+        "trims": [
+          {
+            "trim": "Sport",
+            "engine": "3.7L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.7L V6",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Patriot",
+        "years": [
+          2007,
+          2017
+        ],
+        "trims": [
+          {
+            "trim": "Sport",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.4L I4",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Renegade",
+        "years": [
+          2015,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Sport",
+            "engine": "1.3L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Latitude",
+            "engine": "1.3L I4 Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "1.3L I4 Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Trailhawk",
+            "engine": "1.3L I4 Turbo",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Wagoneer",
+        "years": [
+          2022,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Series I",
+            "engine": "3.0L I6 Twin Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Series II",
+            "engine": "3.0L I6 Twin Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Series III",
+            "engine": "3.0L I6 Twin Turbo",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Wrangler",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Sport",
+            "engine": "3.6L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Sahara",
+            "engine": "3.6L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Rubicon",
+            "engine": "3.6L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Rubicon 392",
+            "engine": "6.4L V8 Hemi",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "4xe PHEV",
+            "engine": "2.0L I4 Plug-in Hybrid",
+            "drivetrain": "4WD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Kia",
+    "models": [
+      {
+        "model": "Carnival",
+        "years": [
+          2022,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SX",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SX Prestige",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Forte",
+        "years": [
+          2010,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GT-Line",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GT",
+            "engine": "1.6L I4 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "K5",
+        "years": [
+          2021,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LXS",
+            "engine": "1.6L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GT-Line",
+            "engine": "1.6L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "1.6L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GT",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Niro",
+        "years": [
+          2017,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "1.6L I4 Hybrid",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "1.6L I4 Hybrid",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SX",
+            "engine": "1.6L I4 Hybrid",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "PHEV",
+            "engine": "1.6L I4 Plug-in Hybrid",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EV",
+            "engine": "Electric FWD",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Optima",
+        "years": [
+          2001,
+          2020
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "1.6L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SX",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Seltos",
+        "years": [
+          2021,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "S",
+            "engine": "2.0L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "1.6L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SX",
+            "engine": "1.6L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Sorento",
+        "years": [
+          2003,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "S",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SX",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Hybrid",
+            "engine": "1.6L I4 Turbo Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "PHEV",
+            "engine": "1.6L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Soul",
+        "years": [
+          2010,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "S",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GT-Line",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Sportage",
+        "years": [
+          1998,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SX",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SX Prestige",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Hybrid",
+            "engine": "1.6L I4 Turbo Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "PHEV",
+            "engine": "1.6L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Stinger",
+        "years": [
+          2018,
+          2023
+        ],
+        "trims": [
+          {
+            "trim": "GT-Line",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "GT1",
+            "engine": "3.3L V6 Twin Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "GT2",
+            "engine": "3.3L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Telluride",
+        "years": [
+          2020,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LX",
+            "engine": "3.8L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "S",
+            "engine": "3.8L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "EX",
+            "engine": "3.8L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SX",
+            "engine": "3.8L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SX Prestige",
+            "engine": "3.8L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Lexus",
+    "models": [
+      {
+        "model": "ES",
+        "years": [
+          1990,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "250",
+            "engine": "2.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "300",
+            "engine": "3.0L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "330",
+            "engine": "3.3L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "350",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "300h",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "GS",
+        "years": [
+          1993,
+          2020
+        ],
+        "trims": [
+          {
+            "trim": "300",
+            "engine": "3.0L I6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "350",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "F",
+            "engine": "5.0L V8",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "GX",
+        "years": [
+          2003,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Premium",
+            "engine": "3.4L V6 Twin Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Luxury",
+            "engine": "3.4L V6 Twin Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Overtrail",
+            "engine": "3.4L V6 Twin Turbo",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "IS",
+        "years": [
+          2001,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "250",
+            "engine": "2.5L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "300",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "350",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "500",
+            "engine": "5.0L V8",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "LC",
+        "years": [
+          2018,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "500",
+            "engine": "5.0L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "500h",
+            "engine": "3.5L V6 Hybrid",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "LS",
+        "years": [
+          1990,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "400",
+            "engine": "4.0L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "430",
+            "engine": "4.3L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "460",
+            "engine": "4.6L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "500",
+            "engine": "3.4L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "500h",
+            "engine": "3.5L V6 Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "LX",
+        "years": [
+          1996,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "450",
+            "engine": "4.5L I6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "470",
+            "engine": "4.7L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "570",
+            "engine": "5.7L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "600",
+            "engine": "3.4L V6 Twin Turbo",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "NX",
+        "years": [
+          2015,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "250",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "350",
+            "engine": "2.4L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "350h",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "450h+",
+            "engine": "2.5L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "RC",
+        "years": [
+          2015,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "300",
+            "engine": "3.5L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "350",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "F",
+            "engine": "5.0L V8",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "RX",
+        "years": [
+          1999,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "350",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "350 AWD",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "350h",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "450h+",
+            "engine": "2.5L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "500h",
+            "engine": "2.4L I4 Turbo Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "UX",
+        "years": [
+          2019,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "200",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "250h",
+            "engine": "2.0L I4 Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Lincoln",
+    "models": [
+      {
+        "model": "Aviator",
+        "years": [
+          2003,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Standard",
+            "engine": "3.0L V6 Twin Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Reserve",
+            "engine": "3.0L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Black Label",
+            "engine": "3.0L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "PHEV",
+            "engine": "3.0L V6 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Continental",
+        "years": [
+          1988,
+          2020
+        ],
+        "trims": [
+          {
+            "trim": "Standard",
+            "engine": "3.7L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Reserve",
+            "engine": "3.0L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Black Label",
+            "engine": "3.0L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Corsair",
+        "years": [
+          2020,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Standard",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Reserve",
+            "engine": "2.3L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "PHEV",
+            "engine": "2.5L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "MKZ",
+        "years": [
+          2007,
+          2020
+        ],
+        "trims": [
+          {
+            "trim": "Standard",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Reserve",
+            "engine": "3.0L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Nautilus",
+        "years": [
+          2008,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Standard",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Reserve",
+            "engine": "2.7L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Black Label",
+            "engine": "2.7L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Navigator",
+        "years": [
+          1998,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Standard",
+            "engine": "3.5L V6 Twin Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Reserve",
+            "engine": "3.5L V6 Twin Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Black Label",
+            "engine": "3.5L V6 Twin Turbo",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Town Car",
+        "years": [
+          1988,
+          2011
+        ],
+        "trims": [
+          {
+            "trim": "Executive",
+            "engine": "4.6L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Signature",
+            "engine": "4.6L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Cartier",
+            "engine": "4.6L V8",
+            "drivetrain": "RWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Mazda",
+    "models": [
+      {
+        "model": "CX-3",
+        "years": [
+          2016,
+          2021
+        ],
+        "trims": [
+          {
+            "trim": "Sport",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Touring",
+            "engine": "2.0L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Grand Touring",
+            "engine": "2.0L I4",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "CX-30",
+        "years": [
+          2020,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Select",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Preferred",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Carbon Turbo",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "CX-5",
+        "years": [
+          2013,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Select",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Preferred",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Carbon Turbo",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Turbo Premium",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Turbo Signature",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "CX-50",
+        "years": [
+          2023,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Select",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Preferred",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Turbo Premium",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Turbo Meridian",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "CX-70",
+        "years": [
+          2025,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Preferred",
+            "engine": "3.3L I6 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "3.3L I6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "PHEV",
+            "engine": "2.5L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "CX-9",
+        "years": [
+          2007,
+          2023
+        ],
+        "trims": [
+          {
+            "trim": "Sport",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Touring",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Grand Touring",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Signature",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "CX-90",
+        "years": [
+          2024,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Select",
+            "engine": "3.3L I6 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Preferred",
+            "engine": "3.3L I6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "3.3L I6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Turbo S",
+            "engine": "3.3L I6 Turbo HO",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "PHEV",
+            "engine": "2.5L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Mazda3",
+        "years": [
+          2004,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Select",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Preferred",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Carbon Turbo",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Mazda6",
+        "years": [
+          2003,
+          2021
+        ],
+        "trims": [
+          {
+            "trim": "Sport",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Touring",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Grand Touring",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Signature",
+            "engine": "2.5L I4 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "MX-5 Miata",
+        "years": [
+          1990,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Sport",
+            "engine": "2.0L I4",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Club",
+            "engine": "2.0L I4",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Grand Touring",
+            "engine": "2.0L I4",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "Protege",
+        "years": [
+          1990,
+          2003
+        ],
+        "trims": [
+          {
+            "trim": "DX",
+            "engine": "1.6L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LX",
+            "engine": "1.8L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "ES",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Mercedes-Benz",
+    "models": [
+      {
+        "model": "A-Class",
+        "years": [
+          2019,
+          2022
+        ],
+        "trims": [
+          {
+            "trim": "A 220",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "A 220 4MATIC",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "C-Class",
+        "years": [
+          1994,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "C 300",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "C 300 4MATIC",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "AMG C 43",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "AMG C 63",
+            "engine": "2.0L I4 Turbo Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "E-Class",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "E 350",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "E 350 4MATIC",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "E 450",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "AMG E 53",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "S-Class",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "S 500",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "S 580",
+            "engine": "4.0L V8 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Maybach S 580",
+            "engine": "4.0L V8 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "GLA",
+        "years": [
+          2015,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "GLA 250",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GLA 250 4MATIC",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "AMG GLA 35",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "GLB",
+        "years": [
+          2020,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "GLB 250",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GLB 250 4MATIC",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "AMG GLB 35",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "GLC",
+        "years": [
+          2016,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "GLC 300",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "GLC 300 4MATIC",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "AMG GLC 43",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "GLE",
+        "years": [
+          1998,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "GLE 350",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "GLE 350 4MATIC",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "GLE 450",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "AMG GLE 53",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "AMG GLE 63 S",
+            "engine": "4.0L V8 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "GLS",
+        "years": [
+          2007,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "GLS 450",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "GLS 580",
+            "engine": "4.0L V8 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "AMG GLS 63",
+            "engine": "4.0L V8 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Maybach GLS 600",
+            "engine": "4.0L V8 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "G-Wagon",
+        "years": [
+          2002,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "G 550",
+            "engine": "4.0L V8 Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "AMG G 63",
+            "engine": "4.0L V8 Turbo",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "CLA",
+        "years": [
+          2014,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "CLA 250",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "CLA 250 4MATIC",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "AMG CLA 35",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "AMG CLA 45",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Mini",
+    "models": [
+      {
+        "model": "Cooper",
+        "years": [
+          2002,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Cooper",
+            "engine": "1.5L I3 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Cooper S",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "John Cooper Works",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Countryman",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Mitsubishi",
+    "models": [
+      {
+        "model": "Eclipse Cross",
+        "years": [
+          2018,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "ES",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SE",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Lancer",
+        "years": [
+          2002,
+          2017
+        ],
+        "trims": [
+          {
+            "trim": "ES",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GT",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Evolution",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Mirage",
+        "years": [
+          2014,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "ES",
+            "engine": "1.2L I3",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SE",
+            "engine": "1.2L I3",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GT",
+            "engine": "1.2L I3",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Outlander",
+        "years": [
+          2003,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "ES",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SE",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "PHEV",
+            "engine": "2.4L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Outlander Sport",
+        "years": [
+          2011,
+          2024
+        ],
+        "trims": [
+          {
+            "trim": "ES",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SE",
+            "engine": "2.4L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "GT",
+            "engine": "2.4L I4",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Nissan",
+    "models": [
+      {
+        "model": "Altima",
+        "years": [
+          1993,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SV",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SR",
+            "engine": "2.0L I4 Turbo VC-Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SL",
+            "engine": "2.0L I4 Turbo VC-Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Armada",
+        "years": [
+          2004,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SV",
+            "engine": "5.6L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "SL",
+            "engine": "5.6L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "5.6L V8",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Frontier",
+        "years": [
+          1998,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "3.8L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "SV",
+            "engine": "3.8L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Pro-4X",
+            "engine": "3.8L V6",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Kicks",
+        "years": [
+          2018,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "1.6L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SV",
+            "engine": "1.6L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SR",
+            "engine": "1.6L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Maxima",
+        "years": [
+          1988,
+          2023
+        ],
+        "trims": [
+          {
+            "trim": "SV",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SR",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Murano",
+        "years": [
+          2003,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SV",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SL",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "3.5L V6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Pathfinder",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SV",
+            "engine": "3.5L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "SL",
+            "engine": "3.5L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "3.5L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Rock Creek",
+            "engine": "3.5L V6",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Rogue",
+        "years": [
+          2008,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "1.5L I3 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SV",
+            "engine": "1.5L I3 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SL",
+            "engine": "1.5L I3 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "1.5L I3 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Sentra",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SV",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SR",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Titan",
+        "years": [
+          2004,
+          2024
+        ],
+        "trims": [
+          {
+            "trim": "SV",
+            "engine": "5.6L V8",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Pro-4X",
+            "engine": "5.6L V8",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Platinum Reserve",
+            "engine": "5.6L V8",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Versa",
+        "years": [
+          2007,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "1.6L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SV",
+            "engine": "1.6L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SR",
+            "engine": "1.6L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Ariya",
+        "years": [
+          2023,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Engage",
+            "engine": "Electric FWD",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Evolve+",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Platinum+",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Leaf",
+        "years": [
+          2011,
+          2024
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "Electric FWD",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SV Plus",
+            "engine": "Electric FWD",
+            "drivetrain": "FWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Porsche",
+    "models": [
+      {
+        "model": "911",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Carrera",
+            "engine": "3.0L H6 Twin Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Carrera 4",
+            "engine": "3.0L H6 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Carrera S",
+            "engine": "3.0L H6 Twin Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Carrera 4S",
+            "engine": "3.0L H6 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Turbo",
+            "engine": "3.8L H6 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Turbo S",
+            "engine": "3.8L H6 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "GT3",
+            "engine": "4.0L H6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "GT3 RS",
+            "engine": "4.0L H6",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "718 Boxster",
+        "years": [
+          1997,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.0L H4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "S",
+            "engine": "2.5L H4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "GTS 4.0",
+            "engine": "4.0L H6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Spyder",
+            "engine": "4.0L H6",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "718 Cayman",
+        "years": [
+          2006,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.0L H4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "S",
+            "engine": "2.5L H4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "GTS 4.0",
+            "engine": "4.0L H6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "GT4 RS",
+            "engine": "4.0L H6",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "Cayenne",
+        "years": [
+          2003,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "3.0L V6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "S",
+            "engine": "4.0L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "GTS",
+            "engine": "4.0L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Turbo GT",
+            "engine": "4.0L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "E-Hybrid",
+            "engine": "3.0L V6 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Macan",
+        "years": [
+          2015,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "S",
+            "engine": "2.9L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "GTS",
+            "engine": "2.9L V6 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Electric",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Panamera",
+        "years": [
+          2010,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.9L V6 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "GTS",
+            "engine": "4.0L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Turbo S",
+            "engine": "4.0L V8 Twin Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "E-Hybrid",
+            "engine": "2.9L V6 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Taycan",
+        "years": [
+          2020,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "Electric RWD",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "4S",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Turbo",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Turbo S",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Cross Turismo",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Ram",
+    "models": [
+      {
+        "model": "1500",
+        "years": [
+          2010,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Tradesman",
+            "engine": "3.6L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Big Horn",
+            "engine": "5.7L V8 Hemi",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Laramie",
+            "engine": "5.7L V8 Hemi",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Rebel",
+            "engine": "5.7L V8 Hemi",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "5.7L V8 Hemi",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "TRX",
+            "engine": "6.2L V8 Supercharged",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "2500",
+        "years": [
+          2011,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Tradesman",
+            "engine": "6.4L V8 Hemi",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Big Horn",
+            "engine": "6.7L I6 Cummins Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Laramie",
+            "engine": "6.7L I6 Cummins Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "6.7L I6 Cummins Diesel",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "3500",
+        "years": [
+          2011,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Tradesman",
+            "engine": "6.4L V8 Hemi",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Big Horn",
+            "engine": "6.7L I6 Cummins Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Laramie",
+            "engine": "6.7L I6 Cummins Diesel",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "6.7L I6 Cummins Diesel",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "ProMaster",
+        "years": [
+          2014,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "1500",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "2500",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "3500",
+            "engine": "3.6L V6",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "ProMaster City",
+        "years": [
+          2015,
+          2022
+        ],
+        "trims": [
+          {
+            "trim": "Tradesman",
+            "engine": "2.4L I4",
+            "drivetrain": "FWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Subaru",
+    "models": [
+      {
+        "model": "Ascent",
+        "years": [
+          2019,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.4L H4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "2.4L H4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.4L H4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Touring",
+            "engine": "2.4L H4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "BRZ",
+        "years": [
+          2013,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Premium",
+            "engine": "2.4L H4",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.4L H4",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "tS",
+            "engine": "2.4L H4",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "Crosstrek",
+        "years": [
+          2013,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.0L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "2.0L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Wilderness",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Forester",
+        "years": [
+          1998,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Touring",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Wilderness",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Impreza",
+        "years": [
+          1993,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.0L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "RS",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Legacy",
+        "years": [
+          1990,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Sport Turbo",
+            "engine": "2.4L H4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Touring XT",
+            "engine": "2.4L H4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Outback",
+        "years": [
+          1995,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.5L H4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Onyx Edition XT",
+            "engine": "2.4L H4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Wilderness",
+            "engine": "2.4L H4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Touring XT",
+            "engine": "2.4L H4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Solterra",
+        "years": [
+          2023,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Premium",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Touring",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "WRX",
+        "years": [
+          2002,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.4L H4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "2.4L H4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.4L H4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "GT",
+            "engine": "2.4L H4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Tesla",
+    "models": [
+      {
+        "model": "Model 3",
+        "years": [
+          2017,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Standard Range",
+            "engine": "Electric RWD",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Long Range",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Performance",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Model S",
+        "years": [
+          2012,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Long Range",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Plaid",
+            "engine": "Electric Tri Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Model X",
+        "years": [
+          2015,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Long Range",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Plaid",
+            "engine": "Electric Tri Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Model Y",
+        "years": [
+          2020,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Standard Range",
+            "engine": "Electric RWD",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Long Range",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Performance",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Cybertruck",
+        "years": [
+          2024,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "All-Wheel Drive",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Cyberbeast",
+            "engine": "Electric Tri Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Toyota",
+    "models": [
+      {
+        "model": "4Runner",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SR5",
+            "engine": "4.0L V6",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "TRD Off-Road",
+            "engine": "4.0L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "TRD Pro",
+            "engine": "4.0L V6",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "4.0L V6",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Avalon",
+        "years": [
+          1995,
+          2022
+        ],
+        "trims": [
+          {
+            "trim": "XLE",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Touring",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Hybrid",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Camry",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LE",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SE",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "XLE",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "XSE",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "TRD",
+            "engine": "3.5L V6",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Hybrid LE",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Hybrid XLE",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Corolla",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LE",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SE",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "XLE",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "XSE",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Hybrid LE",
+            "engine": "1.8L I4 Hybrid",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GR Corolla",
+            "engine": "1.6L I3 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Corolla Cross",
+        "years": [
+          2022,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "L",
+            "engine": "2.0L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "LE",
+            "engine": "2.0L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "XLE",
+            "engine": "2.0L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Hybrid",
+            "engine": "2.0L I4 Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Crown",
+        "years": [
+          2023,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "XLE",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "2.4L I4 Turbo Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "GR Supra",
+        "years": [
+          2020,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "2.0",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "3.0",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "3.0 Premium",
+            "engine": "3.0L I6 Turbo",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "GR86",
+        "years": [
+          2022,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Base",
+            "engine": "2.4L H4",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Premium",
+            "engine": "2.4L H4",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Trueno Edition",
+            "engine": "2.4L H4",
+            "drivetrain": "RWD"
+          }
+        ]
+      },
+      {
+        "model": "Highlander",
+        "years": [
+          2001,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LE",
+            "engine": "2.4L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "XLE",
+            "engine": "2.4L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.4L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "2.4L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Hybrid LE",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Hybrid Limited",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Prius",
+        "years": [
+          2001,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LE",
+            "engine": "2.0L I4 Hybrid",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "XLE",
+            "engine": "2.0L I4 Hybrid",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.0L I4 Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Prime SE",
+            "engine": "2.0L I4 Plug-in Hybrid",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Prime XSE",
+            "engine": "2.0L I4 Plug-in Hybrid",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "RAV4",
+        "years": [
+          1996,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LE",
+            "engine": "2.5L I4",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "XLE",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "XLE Premium",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Adventure",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "TRD Off-Road",
+            "engine": "2.5L I4",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Hybrid LE",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Hybrid Limited",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Prime SE",
+            "engine": "2.5L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Prime XSE",
+            "engine": "2.5L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Sequoia",
+        "years": [
+          2001,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SR5",
+            "engine": "3.4L V6 Twin Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.4L V6 Twin Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "3.4L V6 Twin Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "TRD Pro",
+            "engine": "3.4L V6 Twin Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Capstone",
+            "engine": "3.4L V6 Twin Turbo",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Sienna",
+        "years": [
+          1998,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "LE",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "XLE",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Tacoma",
+        "years": [
+          1995,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SR",
+            "engine": "2.4L I4 Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "SR5",
+            "engine": "2.4L I4 Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "TRD Sport",
+            "engine": "2.4L I4 Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "TRD Off-Road",
+            "engine": "2.4L I4 Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.4L I4 Turbo Hybrid",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "TRD Pro",
+            "engine": "2.4L I4 Turbo Hybrid",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Trailhunter",
+            "engine": "2.4L I4 Turbo Hybrid",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Tundra",
+        "years": [
+          2000,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SR",
+            "engine": "3.4L V6 Twin Turbo",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "SR5",
+            "engine": "3.4L V6 Twin Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "3.4L V6 Twin Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Platinum",
+            "engine": "3.4L V6 Twin Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "1794 Edition",
+            "engine": "3.4L V6 Twin Turbo",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "TRD Pro",
+            "engine": "3.4L V6 Twin Turbo Hybrid",
+            "drivetrain": "4WD"
+          },
+          {
+            "trim": "Capstone",
+            "engine": "3.4L V6 Twin Turbo Hybrid",
+            "drivetrain": "4WD"
+          }
+        ]
+      },
+      {
+        "model": "Venza",
+        "years": [
+          2009,
+          2024
+        ],
+        "trims": [
+          {
+            "trim": "LE",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "XLE",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "2.5L I4 Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "bZ4X",
+        "years": [
+          2023,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "XLE",
+            "engine": "Electric FWD",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Limited",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Volkswagen",
+    "models": [
+      {
+        "model": "Arteon",
+        "years": [
+          2019,
+          2024
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL Premium",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Atlas",
+        "years": [
+          2018,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "3.6L VR6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SEL Premium",
+            "engine": "3.6L VR6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Peak Edition",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Atlas Cross Sport",
+        "years": [
+          2020,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "SE",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "3.6L VR6",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SEL Premium",
+            "engine": "3.6L VR6",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Golf",
+        "years": [
+          1988,
+          2021
+        ],
+        "trims": [
+          {
+            "trim": "TDI",
+            "engine": "2.0L I4 Turbodiesel",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GTI S",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GTI SE",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GTI Autobahn",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "R",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "ID.4",
+        "years": [
+          2021,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Standard",
+            "engine": "Electric RWD",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Pro",
+            "engine": "Electric RWD",
+            "drivetrain": "RWD"
+          },
+          {
+            "trim": "Pro S",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Jetta",
+        "years": [
+          1988,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Sport",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SE",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "GLI",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Passat",
+        "years": [
+          1990,
+          2022
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SE",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          }
+        ]
+      },
+      {
+        "model": "Taos",
+        "years": [
+          2022,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SE",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SEL",
+            "engine": "1.5L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "Tiguan",
+        "years": [
+          2009,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "S",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "SE",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "SEL R-Line",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "make": "Volvo",
+    "models": [
+      {
+        "model": "C40",
+        "years": [
+          2022,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Core",
+            "engine": "Electric FWD",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Plus",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Ultimate",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "S60",
+        "years": [
+          2001,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Core",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Plus",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Recharge PHEV",
+            "engine": "2.0L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "S90",
+        "years": [
+          1998,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Plus",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Recharge PHEV",
+            "engine": "2.0L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "V60",
+        "years": [
+          2015,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Cross Country",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Recharge PHEV",
+            "engine": "2.0L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "V90",
+        "years": [
+          2017,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Cross Country",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "XC40",
+        "years": [
+          2018,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Core",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Plus B5",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Recharge",
+            "engine": "Electric Dual Motor",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "XC60",
+        "years": [
+          2009,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Core",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "FWD"
+          },
+          {
+            "trim": "Plus B5",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Ultimate B6",
+            "engine": "2.0L I4 Turbo Supercharged",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Recharge PHEV",
+            "engine": "2.0L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      },
+      {
+        "model": "XC90",
+        "years": [
+          2003,
+          2025
+        ],
+        "trims": [
+          {
+            "trim": "Core",
+            "engine": "2.0L I4 Turbo",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Plus B6",
+            "engine": "2.0L I4 Turbo Supercharged",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Ultimate B6",
+            "engine": "2.0L I4 Turbo Supercharged",
+            "drivetrain": "AWD"
+          },
+          {
+            "trim": "Recharge PHEV",
+            "engine": "2.0L I4 Plug-in Hybrid",
+            "drivetrain": "AWD"
+          }
+        ]
+      }
+    ]
+  }
+]

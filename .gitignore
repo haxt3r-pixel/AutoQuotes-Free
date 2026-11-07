@@ -1,0 +1,9 @@
+node_modules/
+dist/
+data/*
+!data/vehicle-catalog.json
+exports/
+uploads/
+.env
+.env.*
+*.log

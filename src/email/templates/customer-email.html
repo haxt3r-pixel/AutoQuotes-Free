@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      color: #333;
+      line-height: 1.6;
+    }
+    .header {
+      background: #2563eb;
+      color: white;
+      padding: 24px;
+      border-radius: 12px 12px 0 0;
+    }
+    .header h1 { font-size: 20px; margin: 0; }
+    .header p { font-size: 13px; margin: 4px 0 0; opacity: 0.9; }
+    .body {
+      background: #f8fafc;
+      padding: 24px;
+      border: 1px solid #e2e8f0;
+      border-top: none;
+    }
+    .total {
+      background: white;
+      border-radius: 8px;
+      padding: 16px;
+      margin: 16px 0;
+      border: 2px solid #2563eb;
+      text-align: center;
+    }
+    .total .label { font-size: 11px; color: #888; text-transform: uppercase; }
+    .total .amount { font-size: 28px; font-weight: 700; color: #2563eb; }
+    .cta {
+      margin: 20px 0;
+      text-align: center;
+    }
+    .cta a {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 12px 32px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .footer {
+      font-size: 10px;
+      color: #94a3b8;
+      border-top: 1px solid #e2e8f0;
+      padding-top: 12px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>{{shopName}}</h1>
+    <p>Repair Quote {{quoteNumber}}</p>
+  </div>
+  <div class="body">
+    <p>Dear {{customerName}},</p>
+    <p>{{greeting}}</p>
+
+    {{#if priorityItems}}
+    <p><strong>Priority Items to Note:</strong></p>
+    <ul>
+      {{#each priorityItems}}
+      <li>{{this}}</li>
+      {{/each}}
+    </ul>
+    {{/if}}
+
+    <div class="total">
+      <div class="label">Total Estimate</div>
+      <div class="amount">{{grandTotal}}</div>
+    </div>
+
+    <p>{{closing}}</p>
+
+    <div class="cta">
+      <a href="tel:{{shopPhone}}">📞 Call to Schedule</a>
+    </div>
+
+    <p style="margin-top: 20px;">Thank you for choosing <strong>{{shopName}}</strong>.</p>
+  </div>
+  <div class="footer">
+    <p>{{shopName}}{{#if shopAddress}} · {{shopAddress}}{{/if}}</p>
+    <p>{{#if shopPhone}}📞 {{shopPhone}}{{/if}}{{#if shopEmail}} · ✉️ {{shopEmail}}{{/if}}</p>
+  </div>
+</body>
+</html>
