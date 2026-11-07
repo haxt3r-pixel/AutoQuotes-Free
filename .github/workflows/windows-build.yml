@@ -1,0 +1,76 @@
+name: Windows installer validation
+
+on:
+  workflow_dispatch:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  windows-installer:
+    runs-on: windows-2022
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install dependencies
+        run: npm ci
+      - name: Build and test application
+        run: |
+          npm run build
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          npm test
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Build a clean Windows installer
+        run: |
+          $stage = Join-Path $env:RUNNER_TEMP 'autoquotes-installer-stage'
+          $output = Join-Path $env:RUNNER_TEMP 'autoquotes-installer-output'
+          ./installer/build-windows.ps1 -StageDir $stage -OutputDir $output
+      - name: Install and smoke-test the bundled application
+        run: |
+          $installer = Join-Path $env:RUNNER_TEMP 'autoquotes-installer-output/AutoQuotes-Free-Windows-1.0.0-Setup.exe'
+          $installDir = Join-Path $env:RUNNER_TEMP 'autoquotes-installed'
+          $dataDir = Join-Path $env:RUNNER_TEMP 'autoquotes-test-data'
+          $process = Start-Process -FilePath $installer -ArgumentList @('/VERYSILENT','/SUPPRESSMSGBOXES','/NORESTART','/TASKS=desktopicon',("/DIR=`"$installDir`"")) -Wait -PassThru
+          if ($process.ExitCode -ne 0) { throw "Installer failed: $($process.ExitCode)" }
+          $desktopShortcut = Join-Path ([Environment]::GetFolderPath('Desktop')) 'AutoQuotes Free.lnk'
+          if (-not (Test-Path $desktopShortcut)) { throw 'Desktop shortcut was not created' }
+          $node = Join-Path $installDir 'node/node.exe'
+          $app = Join-Path $installDir 'app'
+          $env:AUTOQUOTES_DATA_DIR = $dataDir
+          $env:PLAYWRIGHT_BROWSERS_PATH = '0'
+          $env:AUTO_SHUTDOWN = '0'
+          $env:HOST = '127.0.0.1'
+          $listener = [System.Net.Sockets.TcpListener]::new([System.Net.IPAddress]::Loopback, 0)
+          $listener.Start()
+          $port = $listener.LocalEndpoint.Port
+          $listener.Stop()
+          $env:PORT = "$port"
+          $server = Start-Process -FilePath $node -ArgumentList @("`"$app/dist/main.js`"") -WorkingDirectory $app -PassThru
+          try {
+            $ready = $false
+            for ($i = 0; $i -lt 60; $i++) {
+              if ($server.HasExited) { throw 'Bundled server exited during startup' }
+              try {
+                $health = Invoke-RestMethod "http://127.0.0.1:$port/api/health" -TimeoutSec 2
+                if ($health.success) { $ready = $true; break }
+              } catch { Start-Sleep -Milliseconds 500 }
+            }
+            if (-not $ready) { throw 'Bundled server did not become ready' }
+            $customers = Invoke-RestMethod "http://127.0.0.1:$port/api/customers"
+            if (@($customers.data).Count -ne 0) { throw 'Installed app did not start with an empty database' }
+            $quote = Invoke-RestMethod "http://127.0.0.1:$port/api/quotes" -Method Post -ContentType 'application/json' -Body '{}'
+            $pdf = Join-Path $env:RUNNER_TEMP 'autoquotes-test.pdf'
+            Invoke-WebRequest "http://127.0.0.1:$port/api/exports/pdf/$($quote.data.id)/view" -OutFile $pdf
+            if (-not (Test-Path $pdf) -or (Get-Item $pdf).Length -lt 100) { throw 'Bundled Chromium did not generate a PDF' }
+          } finally {
+            if (-not $server.HasExited) { Stop-Process -Id $server.Id -Force }
+          }
+          $uninstaller = Join-Path $installDir 'unins000.exe'
+          $uninstall = Start-Process -FilePath $uninstaller -ArgumentList '/VERYSILENT','/SUPPRESSMSGBOXES','/NORESTART' -Wait -PassThru
+          if ($uninstall.ExitCode -ne 0) { throw "Uninstaller failed: $($uninstall.ExitCode)" }
+          if (-not (Test-Path (Join-Path $dataDir 'data/autoquote.db'))) { throw 'Uninstall removed user data' }

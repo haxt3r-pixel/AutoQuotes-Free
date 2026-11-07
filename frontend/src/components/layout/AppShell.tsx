@@ -113,7 +113,7 @@ export function AppShell({ children }: AppShellProps) {
 
       <footer className="border-t border-line bg-surface-elevated py-4 dark:border-gray-800 dark:bg-gray-950">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs text-ink-subtle">
-          AutoQuotes Free v1.0.0 · Linux · Local workstation
+          AutoQuotes Free v1.0.0 · {navigator.userAgent.includes('Windows') ? 'Windows' : 'Linux'} · Local workstation
         </div>
       </footer>
     </div>

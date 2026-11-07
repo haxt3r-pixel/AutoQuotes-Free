@@ -7,14 +7,14 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently -n server,ui -c blue,green \"npm run dev:server\" \"npm run dev:ui\"",
-    "dev:server": "AUTO_SHUTDOWN=0 tsx watch src/main.ts",
+    "dev:server": "node scripts/run-server.mjs dev",
     "dev:ui": "vite",
-    "build": "tsc -p frontend/tsconfig.json && vite build && tsc -p tsconfig.server.json && mkdir -p dist/pdf/templates dist/database/migrations && cp src/pdf/templates/*.html dist/pdf/templates/ && cp src/database/migrations/*.sql dist/database/migrations/",
-    "start": "AUTO_SHUTDOWN=1 node dist/main.js",
-    "start:keep": "AUTO_SHUTDOWN=0 node dist/main.js",
-    "setup": "bash scripts/setup.sh",
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/run-server.mjs start",
+    "start:keep": "node scripts/run-server.mjs keep",
+    "setup": "node scripts/setup.mjs",
     "db:init": "tsx src/config/database.ts --init",
-    "test": "tsx --test tests/**/*.test.ts"
+    "test": "node scripts/run-tests.mjs"
   },
   "dependencies": {
     "better-sqlite3": "^11.6.0",

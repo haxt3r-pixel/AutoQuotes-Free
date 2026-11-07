@@ -24,6 +24,7 @@ import { isAutoShutdownEnabled, SessionLifecycle, type ShutdownReason } from './
 import { closePdfBrowser } from './pdf/pdf-generator.js';
 import { closeBrowser as closePartsBrowser } from './parts/parts-scraper.js';
 import { cartSession } from './parts/cart-session.js';
+import { EXPORTS_DIR, UPLOADS_DIR } from './config/paths.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -41,10 +42,8 @@ export function createApp(lifecycle?: SessionLifecycle): express.Application {
     },
   }));
   app.use(express.json({ limit: '10mb' }));
-  const uploadsDir = path.resolve(__dirname, '..', 'uploads');
-  app.use('/uploads', express.static(uploadsDir));
-  const exportsDir = path.resolve(__dirname, '..', 'exports');
-  app.use('/exports', express.static(exportsDir));
+  app.use('/uploads', express.static(UPLOADS_DIR));
+  app.use('/exports', express.static(EXPORTS_DIR));
   const publicDir = path.resolve(__dirname, '..', 'dist', 'public');
   app.use(express.static(publicDir));
   app.use('/api/settings', settingsRoutes);

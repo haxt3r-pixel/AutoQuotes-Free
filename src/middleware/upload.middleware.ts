@@ -1,10 +1,7 @@
 import multer from 'multer';
 import path from 'path';
 import fs from 'fs';
-import { fileURLToPath } from 'url';
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const UPLOADS_DIR = path.resolve(__dirname, '..', '..', 'uploads');
+import { UPLOADS_DIR } from '../config/paths.js';
 
 // Ensure uploads directory exists
 if (!fs.existsSync(UPLOADS_DIR)) {

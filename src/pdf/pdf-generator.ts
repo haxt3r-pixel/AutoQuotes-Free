@@ -9,10 +9,10 @@ import fs from 'fs';
 import { fileURLToPath } from 'url';
 import { quotesRepo } from '../database/repositories/quotes.repo.js';
 import { customersRepo } from '../database/repositories/customers.repo.js';
+import { EXPORTS_DIR, UPLOADS_DIR } from '../config/paths.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const TEMPLATE_DIR = path.resolve(__dirname, 'templates');
-const EXPORTS_DIR = path.resolve(__dirname, '..', '..', 'exports');
 
 // Ensure exports directory exists
 if (!fs.existsSync(EXPORTS_DIR)) {
@@ -90,6 +90,7 @@ function getTemplate(): Handlebars.TemplateDelegate<PdfQuoteData> {
 function resolveLogoPath(logoPath: string): string | null {
   const relative = logoPath.replace(/^\//, '');
   const candidates = [
+    path.join(UPLOADS_DIR, path.basename(relative)),
     path.resolve(__dirname, '..', '..', relative), // project root from src/pdf or dist/pdf
     path.resolve(process.cwd(), relative),
     path.resolve(process.cwd(), 'uploads', path.basename(relative)),

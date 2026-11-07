@@ -6,6 +6,8 @@ AutoQuotes Free helps a repair shop prepare estimates, track the work approved b
 
 This is the **Linux edition**, intended for a single user on one computer. It is a source-based application, not an installed system package or a hosted service.
 
+The Windows 11 edition is under development; see [WINDOWS.md](WINDOWS.md) for its current status and setup.
+
 ## What it does
 
 - Create and search quotes with customer and vehicle information, parts, labor, miscellaneous items, notes, and priority labels.
